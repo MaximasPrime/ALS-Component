@@ -4,12 +4,12 @@ The original ALSv3 turned into a easily usable component which can be used in Ch
 
 Instructions
 - Add the ALS component to your character
-![](Component.png)
+![1](Pics/Component.png)
 - Make sure you are using ALSAnimBP with  
 - Copy Character events from ALS component to CharacterBP
-![](Pics/Implement.png)
+![2](Pics/Implement.png)
 - Simple examples of character control
-![](Pics/Examples.png)
+![3](Pics/Examples.png)
 
 
 
