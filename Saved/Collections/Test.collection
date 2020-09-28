@@ -1,0 +1,8 @@
+FileVersion:2
+Type:Static
+Guid:32BA717C-4BEB-E925-EA87-FBBB38C0A264
+ParentGuid:00000000-0000-0000-0000-000000000000
+
+/Game/ALS/Blueprints/MannequinCharacter.MannequinCharacter
+/Game/ALS/Characters/Mannequin/Animations/Misc/ALS_Mannequin_RetargetPoses.ALS_Mannequin_RetargetPoses
+/Game/ALS/Characters/Mannequin/Animations/Misc/ALS_Mannequin_T_Pose.ALS_Mannequin_T_Pose

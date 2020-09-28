@@ -1,0 +1,1654 @@
+﻿Log file open, 09/21/20 02:35:21
+LogInit: Display: Running engine for game: ALS3
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.220811
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin PTMTool
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Game Dev/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:1]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.21-01.35.21:464][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.21-01.35.21:464][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.21-01.35.21:464][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.21-01.35.21:470][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.21-01.35.21:471][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.21-01.35.21:472][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.21-01.35.21:473][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.21-01.35.21:473][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.21-01.35.21:473][  0]LogHAL: Display: Platform has ~ 32 GB [34239057920 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.21-01.35.21:473][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.21-01.35.21:473][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.21-01.35.21:473][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.21-01.35.21:474][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.21-01.35.21:474][  0]LogInit: Computer: DESKTOP-N429GCM
+[2020.09.21-01.35.21:474][  0]LogInit: User: Max
+[2020.09.21-01.35.21:474][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.09.21-01.35.21:474][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.21-01.35.21:475][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.09.21-01.35.21:475][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.21-01.35.21:475][  0]LogMemory: Process Physical Memory: 116.78 MB used, 116.79 MB peak
+[2020.09.21-01.35.21:475][  0]LogMemory: Process Virtual Memory: 98.21 MB used, 98.21 MB peak
+[2020.09.21-01.35.21:475][  0]LogMemory: Physical Memory: 10156.36 MB used,  22496.55 MB free, 32652.91 MB total
+[2020.09.21-01.35.21:475][  0]LogMemory: Virtual Memory: 5125.70 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.09.21-01.35.21:480][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.21-01.35.21:513][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.21-01.35.21:514][  0]LogInit: Using OS detected language (en-GB).
+[2020.09.21-01.35.21:515][  0]LogInit: Using OS detected locale (en-GB).
+[2020.09.21-01.35.21:516][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.09.21-01.35.21:697][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.21-01.35.21:737][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.21-01.35.21:737][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.21-01.35.21:895][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.21-01.35.21:895][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.21-01.35.21:895][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.21-01.35.21:895][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.21-01.35.21:979][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2020.09.21-01.35.21:979][  0]LogD3D11RHI:       8079/0/16326 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.21-01.35.21:999][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.09.21-01.35.21:999][  0]LogD3D11RHI:       128/0/16326 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.09.21-01.35.22:001][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.21-01.35.22:001][  0]LogD3D11RHI:       0/0/16326 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.21-01.35.22:001][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.21-01.35.22:011][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.21-01.35.22:011][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.21-01.35.22:011][  0]LogWindows: EnumDisplayDevices:
+[2020.09.21-01.35.22:011][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2020.09.21-01.35.22:011][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2020.09.21-01.35.22:012][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2020.09.21-01.35.22:012][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2020.09.21-01.35.22:012][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2020.09.21-01.35.22:012][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.09.21-01.35.22:013][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.09.21-01.35.22:013][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.09.21-01.35.22:013][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2020.09.21-01.35.22:013][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.09.21-01.35.22:013][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.09.21-01.35.22:013][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2020.09.21-01.35.22:066][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.21-01.35.22:068][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.21-01.35.22:068][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.21-01.35.22:068][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.21-01.35.22:084][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.21-01.35.22:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.21-01.35.22:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.21-01.35.22:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.21-01.35.22:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.21-01.35.22:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.21-01.35.22:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.21-01.35.22:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.21-01.35.22:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.21-01.35.22:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.21-01.35.22:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.21-01.35.22:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.21-01.35.22:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.21-01.35.22:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.21-01.35.22:458][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.21-01.35.22:466][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.21-01.35.22:475][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.21-01.35.22:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.21-01.35.22:498][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.21-01.35.22:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.21-01.35.22:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.21-01.35.22:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.21-01.35.22:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.21-01.35.22:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.21-01.35.22:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.21-01.35.22:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.21-01.35.22:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.21-01.35.22:583][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.21-01.35.22:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.21-01.35.22:592][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.21-01.35.22:598][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.21-01.35.22:649][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (C:/Users/Max/Documents/Unreal Projects/ALS3/Intermediate/Shaders/WorkingDirectory/19408/).
+[2020.09.21-01.35.22:649][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Max/AppData/Local/Temp/UnrealShaderWorkingDir/0D779A724FBEFFB1E16DAD94D2FE1016/'.
+[2020.09.21-01.35.22:649][  0]LogXGEController: Cleaning working directory: C:/Users/Max/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.21-01.35.22:650][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.21-01.35.22:650][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.21-01.35.22:650][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.21-01.35.23:298][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.21-01.35.23:351][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/Max/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.21-01.35.23:351][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Max/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.21-01.35.23:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Max/Documents/Unreal Projects/ALS3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.21-01.35.23:351][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.21-01.35.23:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Max/Documents/Unreal Projects/ALS3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.21-01.35.23:351][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.21-01.35.23:360][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.21-01.35.23:360][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.21-01.35.23:361][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.21-01.35.23:362][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Max/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.21-01.35.23:362][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.21-01.35.23:362][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.21-01.35.23:405][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.21-01.35.23:406][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.21-01.35.23:430][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2020.09.21-01.35.23:649][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.21-01.35.23:749][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.21-01.35.23:749][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.21-01.35.23:749][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.21-01.35.23:749][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.21-01.35.23:749][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.21-01.35.23:765][  0]LogNetVersion: ALS3 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2651310105)
+[2020.09.21-01.35.24:170][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D2A6FF4380), frame # 0
+[2020.09.21-01.35.24:170][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D2A6F4CA40), frame # 0
+[2020.09.21-01.35.24:172][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D2A6F75E00), frame # 0
+[2020.09.21-01.35.24:251][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.057124 seconds
+[2020.09.21-01.35.24:256][  0]LogUObjectArray: 15913 objects as part of root set at end of initial load.
+[2020.09.21-01.35.24:256][  0]LogUObjectAllocator: 3964304 out of 0 bytes used by permanent object pool.
+[2020.09.21-01.35.24:256][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.21-01.35.24:587][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.21-01.35.24:591][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.21-01.35.24:663][  0]SourceControl: Source control is disabled
+[2020.09.21-01.35.24:664][  0]SourceControl: Source control is disabled
+[2020.09.21-01.35.24:667][  0]SourceControl: Source control is disabled
+[2020.09.21-01.35.24:670][  0]SourceControl: Source control is disabled
+[2020.09.21-01.35.24:677][  0]SourceControl: Source control is disabled
+[2020.09.21-01.35.24:899][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.21-01.35.24:919][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.21-01.35.24:920][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.21-01.35.24:967][  0]LogOcInput: OculusInput pre-init called
+[2020.09.21-01.35.24:977][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.21-01.35.24:977][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.21-01.35.25:049][  0]LogEngine: Initializing Engine...
+[2020.09.21-01.35.25:050][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.21-01.35.25:050][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.21-01.35.25:052][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.21-01.35.25:189][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.21-01.35.25:196][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.21-01.35.25:196][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D2A9634600), frame # 0
+[2020.09.21-01.35.25:196][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D2A9639D00), frame # 0
+[2020.09.21-01.35.25:214][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.21-01.35.25:214][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.21-01.35.25:214][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.21-01.35.25:214][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.21-01.35.25:214][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.21-01.35.25:214][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.21-01.35.25:214][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.21-01.35.25:214][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.21-01.35.25:214][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.21-01.35.25:214][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.21-01.35.25:234][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.21-01.35.25:234][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.21-01.35.25:234][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.21-01.35.25:234][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.21-01.35.25:234][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.09.21-01.35.25:234][  0]LogAudioMixer: Display: 5: BackRight
+[2020.09.21-01.35.25:234][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.09.21-01.35.25:234][  0]LogAudioMixer: Display: 7: SideRight
+[2020.09.21-01.35.25:277][  0]LogAudioMixer: Display: Using Audio Device Speakers (Logitech G433 Gaming Headset)
+[2020.09.21-01.35.25:280][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.21-01.35.25:282][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.21-01.35.25:282][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.21-01.35.25:283][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.21-01.35.25:284][  0]LogInit: FAudioDevice initialized.
+[2020.09.21-01.35.25:284][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.21-01.35.25:357][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/Max/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.21-01.35.25:363][  0]LogInit: Texture streaming: Enabled
+[2020.09.21-01.35.25:381][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.21-01.35.25:381][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.21-01.35.25:384][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.21-01.35.25:426][  0]LogInit: Transaction tracking system initialized
+[2020.09.21-01.35.25:449][  0]BlueprintLog: New page: Editor Load
+[2020.09.21-01.35.25:517][  0]LocalizationService: Localization service is disabled
+[2020.09.21-01.35.25:829][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.21-01.35.25:829][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.21-01.35.25:990][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/' took 0.01s
+[2020.09.21-01.35.26:208][  0]SourceControl: Source control is disabled
+[2020.09.21-01.35.26:209][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.509
+[2020.09.21-01.35.26:209][  0]Cmd: MAP LOAD FILE="C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Maps/ALSV3_DemoLevel_SP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.21-01.35.26:209][  0]LightingResults: New page: Lighting Build
+[2020.09.21-01.35.26:210][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-01.35.26:210][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.35.26:210][  0]MapCheck: New page: Map Check
+[2020.09.21-01.35.26:210][  0]LightingResults: New page: Lighting Build
+[2020.09.21-01.35.26:218][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D2A9634600), frame # 0
+[2020.09.21-01.35.26:218][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D2A9639D00), frame # 0
+[2020.09.21-01.35.26:219][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.09.21-01.35.27:663][  0]LogAIModule: Creating AISystem for world ALSV3_DemoLevel_SP
+[2020.09.21-01.35.27:663][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D2BD9F2400), frame # 0
+[2020.09.21-01.35.27:664][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D2BD9EBB00), frame # 0
+[2020.09.21-01.35.27:707][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.21-01.35.27:747][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.09.21-01.35.27:747][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.21-01.35.27:747][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.211ms to complete.
+[2020.09.21-01.35.27:747][  0]LogFileHelpers: Loading map 'ALSV3_DemoLevel_SP' took 1.538
+[2020.09.21-01.35.27:749][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.049
+[2020.09.21-01.35.27:878][  0]LogCollectionManager: Loaded 0 collections in 0.000929 seconds
+[2020.09.21-01.35.27:890][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Collections/' took 0.00s
+[2020.09.21-01.35.27:890][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/Developers/Max/Collections/' took 0.00s
+[2020.09.21-01.35.27:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/Collections/' took 0.00s
+[2020.09.21-01.35.27:891][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3427 classes and 821 folders.
+[2020.09.21-01.35.27:894][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.09.21-01.35.27:957][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.09.21-01.35.27:972][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.35.27:980][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.35.27:987][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.35.27:995][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.35.28:001][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.09.21-01.35.28:139][  0]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.21-01.35.28:141][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.21-01.35.28:142][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.21-01.35.28:217][  0]LogRenderer: Reallocating scene render targets to support 1500x764 Format 9 NumSamples 1 (Frame:1).
+[2020.09.21-01.35.28:364][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.21-01.35.28:364][  0]LogLoad: (Engine Initialization) Total time: 8.66 seconds
+[2020.09.21-01.35.28:364][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.21-01.35.28:410][  0]LogAssetRegistry: Asset discovery search completed in 4.9810 seconds
+[2020.09.21-01.35.28:413][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.09.21-01.35.28:414][  0]LogContentStreaming: Texture pool size now 600 MB
+[2020.09.21-01.35.28:448][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.21-01.35.29:391][100]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.21-01.35.50:258][287]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP
+[2020.09.21-01.35.50:265][287]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.09.21-01.35.50:418][287]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.09.21-01.35.50:420][287]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2020.09.21-01.35.50:557][287]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 125 classes and 0 folders.
+[2020.09.21-01.35.51:731][287]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.21-01.35.51:882][288]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.21-01.36.02:527][392]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin.Mannequin
+[2020.09.21-01.36.02:531][392]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.09.21-01.36.02:773][393]LogRenderer: Reallocating scene render targets to support 1528x896 Format 9 NumSamples 1 (Frame:1).
+[2020.09.21-01.36.19:786][345]LogSavePackage: Moving 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/MannequinC6114FB64C86EE23771B3881073D5C40.tmp' to 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Characters/Mannequin/Mannequin.uasset'
+[2020.09.21-01.36.19:804][345]AssetCheck: New page: Asset Save: Mannequin
+[2020.09.21-01.36.19:804][345]LogContentValidation: Display: Validating SkeletalMesh /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin.Mannequin
+[2020.09.21-01.36.21:115][488]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-01.36.21:115][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.36.22:944][688]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-01.36.22:944][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.36.22:950][688]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-01.36.22:950][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.36.23:032][688]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-01.36.23:032][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.36.25:485][893]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP
+[2020.09.21-01.36.25:495][893]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.09.21-01.36.29:649][277]BlueprintLog: New page: Compile Mannequin_AnimBP
+[2020.09.21-01.36.29:973][277]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.09.21-01.36.37:308][962]LogSavePackage: Moving 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Mannequin_AnimBP178A14C44DF5861C4FB932B57C1554E2.tmp' to 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.uasset'
+[2020.09.21-01.36.37:323][962]AssetCheck: New page: Asset Save: Mannequin_AnimBP
+[2020.09.21-01.36.37:323][962]LogContentValidation: Display: Validating AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP
+[2020.09.21-01.37.05:347][818]LogSlate: Window 'Transfer Properties' being destroyed
+[2020.09.21-01.37.05:353][818]Message dialog closed, result: Yes, title: Transfer Properties, text:  Copy picked properties from Source to Target Blueprint(s) ?!
+[2020.09.21-01.37.05:647][818]LogBlueprint: Warning: [Compiler Mannequin_AnimBP] Can't parse default value '(Rotation=(X=0.000000,Y=0.000000,Z=0.000000,W=1.000000),Translation=(X=0.000000,Y=0.000000,Z=0.000000),Scale3D=(X=1.000000,Y=1.000000,Z=1.000000))' for  . Property: RightFootTransform.
+[2020.09.21-01.37.05:647][818]LogBlueprint: Warning: [Compiler Mannequin_AnimBP] Can't parse default value '(Rotation=(X=0.000000,Y=0.000000,Z=0.000000,W=1.000000),Translation=(X=0.000000,Y=0.000000,Z=0.000000),Scale3D=(X=1.000000,Y=1.000000,Z=1.000000))' for  . Property: LeftFootTransform.
+[2020.09.21-01.37.05:754][818]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.09.21-01.37.07:224][818]LogSlate: Window 'Save Content' being destroyed
+[2020.09.21-01.37.07:773][818]LogSavePackage: Moving 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Mannequin_AnimBP83C660444B71FEB22A250A9751C28981.tmp' to 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.uasset'
+[2020.09.21-01.37.07:791][818]AssetCheck: New page: Asset Save: Mannequin_AnimBP
+[2020.09.21-01.37.07:791][818]LogContentValidation: Display: Validating AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP
+[2020.09.21-01.37.09:502][  2]LogSlate: Window 'Property Transfer' being destroyed
+[2020.09.21-01.37.09:507][  2]LogSlate: Window 'Property Transfer' being destroyed
+[2020.09.21-01.37.36:214][912]LogSlate: Window 'Transfer Functions' being destroyed
+[2020.09.21-01.37.36:221][912]Message dialog closed, result: Yes, title: Transfer Functions, text:  Copy picked functions from Source to Target Blueprint(s) ?!
+[2020.09.21-01.37.36:588][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.37.36:588][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.37.36:588][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.37.36:588][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.37.36:588][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.37.36:588][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.37.36:588][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.37.36:588][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.37.36:588][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.37.36:588][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.37.36:589][912]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.37.36:696][912]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.09.21-01.37.37:882][912]LogSlate: Window 'Save Content' being destroyed
+[2020.09.21-01.37.50:170][912]LogSlate: Window 'Message' being destroyed
+[2020.09.21-01.37.50:174][912]Message dialog closed, result: Yes, title: Message, text: Can't save C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.uasset: Graph is linked to private object(s) in an external package.
+External Object(s):
+TraceStart/End
+ClampOffsets
+InterpOffsets
+  
+Try to find the chain of references to that object (may take some time)?
+[2020.09.21-01.37.50:174][912]LogSavePackage: Warning: 
+Referencers of EdGraph /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP:TraceStart/End:
+[2020.09.21-01.37.50:273][912]LogSavePackage: Warning: 	AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP (1 refs)
+[2020.09.21-01.37.50:273][912]LogSavePackage: Warning: 		0) ObjectProperty MacroGraphs./Script/Engine.Blueprint:MacroGraphs
+[2020.09.21-01.37.50:273][912]LogSavePackage: Warning: 	K2Node_MacroInstance /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:FootIK.K2Node_MacroInstance_24 (1 refs)
+[2020.09.21-01.37.50:273][912]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.GraphReference:MacroGraph
+[2020.09.21-01.37.50:273][912]LogSavePackage: Warning: 	K2Node_MacroInstance /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:FootIK.K2Node_MacroInstance_89 (1 refs)
+[2020.09.21-01.37.50:273][912]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.GraphReference:MacroGraph
+[2020.09.21-01.37.50:273][912]LogSavePackage: Warning: 
+Referencers of EdGraph /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP:ClampOffsets:
+[2020.09.21-01.37.50:370][912]LogSavePackage: Warning: 	AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP (1 refs)
+[2020.09.21-01.37.50:370][912]LogSavePackage: Warning: 		0) ObjectProperty MacroGraphs./Script/Engine.Blueprint:MacroGraphs
+[2020.09.21-01.37.50:370][912]LogSavePackage: Warning: 	K2Node_MacroInstance /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:FootIK.K2Node_MacroInstance_36 (1 refs)
+[2020.09.21-01.37.50:370][912]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.GraphReference:MacroGraph
+[2020.09.21-01.37.50:370][912]LogSavePackage: Warning: 	K2Node_MacroInstance /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:FootIK.K2Node_MacroInstance_120 (1 refs)
+[2020.09.21-01.37.50:370][912]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.GraphReference:MacroGraph
+[2020.09.21-01.37.50:370][912]LogSavePackage: Warning: 
+Referencers of EdGraph /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP:InterpOffsets:
+[2020.09.21-01.37.50:453][912]LogSavePackage: Warning: 	AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP (1 refs)
+[2020.09.21-01.37.50:453][912]LogSavePackage: Warning: 		0) ObjectProperty MacroGraphs./Script/Engine.Blueprint:MacroGraphs
+[2020.09.21-01.37.50:453][912]LogSavePackage: Warning: 	K2Node_MacroInstance /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:FootIK.K2Node_MacroInstance_72 (1 refs)
+[2020.09.21-01.37.50:453][912]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.GraphReference:MacroGraph
+[2020.09.21-01.37.50:453][912]LogSavePackage: Warning: 	K2Node_MacroInstance /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:FootIK.K2Node_MacroInstance_237 (1 refs)
+[2020.09.21-01.37.50:453][912]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.GraphReference:MacroGraph
+[2020.09.21-01.37.52:246][912]LogSlate: Window 'Message' being destroyed
+[2020.09.21-01.37.52:250][912]Message dialog closed, result: Continue, title: Message, text: The asset '/Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP' (Mannequin_AnimBP.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2020.09.21-01.37.52:264][912]EditorErrors: New page: Save Output
+[2020.09.21-01.37.52:265][912]EditorErrors: Warning: Can't save C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.uasset: Graph is linked to external private object EdGraph /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP:InterpOffsets (MacroGraph)
+[2020.09.21-01.37.53:528][912]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2020.09.21-01.37.53:534][912]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP
+[2020.09.21-01.37.53:574][912]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.09.21-01.37.55:251][ 90]LogSlate: Window 'Message Log' being destroyed
+[2020.09.21-01.37.55:255][ 90]LogSlate: Window 'Message Log' being destroyed
+[2020.09.21-01.37.55:895][163]LogSlate: Window 'Function Transfer' being destroyed
+[2020.09.21-01.37.55:903][163]LogSlate: Window 'Function Transfer' being destroyed
+[2020.09.21-01.38.00:358][314]LogSlate: Window 'Message' being destroyed
+[2020.09.21-01.38.00:363][314]Message dialog closed, result: Yes, title: Message, text: Can't save C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.uasset: Graph is linked to private object(s) in an external package.
+External Object(s):
+TraceStart/End
+ClampOffsets
+InterpOffsets
+  
+Try to find the chain of references to that object (may take some time)?
+[2020.09.21-01.38.00:363][314]LogSavePackage: Warning: 
+Referencers of EdGraph /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP:TraceStart/End:
+[2020.09.21-01.38.00:461][314]LogSavePackage: Warning: 	AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP (1 refs)
+[2020.09.21-01.38.00:461][314]LogSavePackage: Warning: 		0) ObjectProperty MacroGraphs./Script/Engine.Blueprint:MacroGraphs
+[2020.09.21-01.38.00:461][314]LogSavePackage: Warning: 	K2Node_MacroInstance /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:FootIK.K2Node_MacroInstance_24 (1 refs)
+[2020.09.21-01.38.00:461][314]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.GraphReference:MacroGraph
+[2020.09.21-01.38.00:461][314]LogSavePackage: Warning: 	K2Node_MacroInstance /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:FootIK.K2Node_MacroInstance_89 (1 refs)
+[2020.09.21-01.38.00:461][314]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.GraphReference:MacroGraph
+[2020.09.21-01.38.00:461][314]LogSavePackage: Warning: 
+Referencers of EdGraph /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP:ClampOffsets:
+[2020.09.21-01.38.00:556][314]LogSavePackage: Warning: 	AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP (1 refs)
+[2020.09.21-01.38.00:556][314]LogSavePackage: Warning: 		0) ObjectProperty MacroGraphs./Script/Engine.Blueprint:MacroGraphs
+[2020.09.21-01.38.00:556][314]LogSavePackage: Warning: 	K2Node_MacroInstance /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:FootIK.K2Node_MacroInstance_36 (1 refs)
+[2020.09.21-01.38.00:556][314]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.GraphReference:MacroGraph
+[2020.09.21-01.38.00:557][314]LogSavePackage: Warning: 	K2Node_MacroInstance /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:FootIK.K2Node_MacroInstance_120 (1 refs)
+[2020.09.21-01.38.00:557][314]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.GraphReference:MacroGraph
+[2020.09.21-01.38.00:557][314]LogSavePackage: Warning: 
+Referencers of EdGraph /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP:InterpOffsets:
+[2020.09.21-01.38.00:643][314]LogSavePackage: Warning: 	AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP (1 refs)
+[2020.09.21-01.38.00:643][314]LogSavePackage: Warning: 		0) ObjectProperty MacroGraphs./Script/Engine.Blueprint:MacroGraphs
+[2020.09.21-01.38.00:643][314]LogSavePackage: Warning: 	K2Node_MacroInstance /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:FootIK.K2Node_MacroInstance_72 (1 refs)
+[2020.09.21-01.38.00:643][314]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.GraphReference:MacroGraph
+[2020.09.21-01.38.00:643][314]LogSavePackage: Warning: 	K2Node_MacroInstance /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:FootIK.K2Node_MacroInstance_237 (1 refs)
+[2020.09.21-01.38.00:643][314]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.GraphReference:MacroGraph
+[2020.09.21-01.38.02:290][314]LogSlate: Window 'Message' being destroyed
+[2020.09.21-01.38.02:294][314]Message dialog closed, result: Continue, title: Message, text: The asset '/Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP' (Mannequin_AnimBP.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2020.09.21-01.38.02:301][314]EditorErrors: New page: Save Output
+[2020.09.21-01.38.02:301][314]EditorErrors: Warning: Can't save C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.uasset: Graph is linked to external private object EdGraph /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP:InterpOffsets (MacroGraph)
+[2020.09.21-01.38.03:340][314]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2020.09.21-01.38.03:345][314]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP
+[2020.09.21-01.38.05:135][513]LogSlate: Window 'Message Log' being destroyed
+[2020.09.21-01.38.05:140][513]LogSlate: Window 'Message Log' being destroyed
+[2020.09.21-01.38.16:038][611]BlueprintLog: New page: Compile Mannequin_AnimBP
+[2020.09.21-01.38.16:236][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.38.16:236][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.38.16:236][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.38.16:236][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.38.16:236][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.38.16:236][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.16:237][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.16:238][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.38.16:238][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.38.16:238][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.38.16:238][611]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.38.16:361][611]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.09.21-01.38.20:718][  7]BlueprintLog: New page: Compile Mannequin_AnimBP
+[2020.09.21-01.38.20:917][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.38.20:918][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.38.20:918][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.38.20:918][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.38.20:918][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.20:918][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.20:918][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.20:918][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.20:918][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.20:918][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.20:918][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.20:918][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.20:919][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.20:919][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.20:919][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.38.20:919][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.38.20:919][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.38.20:919][  7]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.38.21:045][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.09.21-01.38.28:855][541]BlueprintLog: New page: Compile Mannequin_AnimBP
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Trace Start/ End ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Clamp Offsets ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.38.29:057][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.38.29:058][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.38.29:058][541]LogBlueprint: Error: [Compiler Mannequin_AnimBP] This blueprint (self) is not a Mannequin_IK_AnimBP_C, therefore ' Target generated from expanding Interp Offsets ' must have a connection.
+[2020.09.21-01.38.29:183][541]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.09.21-01.39.20:109][545]LogEditorTransaction: Undo Add Node
+[2020.09.21-01.39.20:209][545]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.09.21-01.39.20:987][587]LogEditorTransaction: Undo Set Category
+[2020.09.21-01.39.21:100][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.09.21-01.39.21:504][611]LogEditorTransaction: Undo Set Category
+[2020.09.21-01.39.21:610][611]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.09.21-01.39.21:883][626]LogEditorTransaction: Undo Set Category
+[2020.09.21-01.39.21:992][626]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.09.21-01.41.26:992][877]BlueprintLog: New page: Compile Mannequin_AnimBP
+[2020.09.21-01.41.27:458][877]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.09.21-01.41.36:005][712]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP
+[2020.09.21-01.41.36:011][712]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.09.21-01.47.56:395][915]BlueprintLog: New page: Compile Mannequin_AnimBP
+[2020.09.21-01.47.56:818][915]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.09.21-01.48.39:204][286]LogUObjectHash: Warning: Ambiguous path search, could be AnimGraphNode_SaveCachedPose /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:AnimGraph.AnimGraphNode_SaveCachedPose_0 or AnimGraphNode_SaveCachedPose /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP:AnimGraph.AnimGraphNode_SaveCachedPose_0
+[2020.09.21-01.48.39:204][286]LogUObjectHash: Warning: Ambiguous path search, could be AnimGraphNode_SaveCachedPose /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:AnimGraph.AnimGraphNode_SaveCachedPose_0 or AnimGraphNode_SaveCachedPose /Engine/Transient.PROTO_BP_AnimBlueprint_0:AnimGraph.AnimGraphNode_SaveCachedPose_0
+[2020.09.21-01.48.49:627][298]BlueprintLog: New page: Compile Mannequin_AnimBP
+[2020.09.21-01.48.49:754][298]LogBlueprint: Error: [Compiler Mannequin_AnimBP] Failed to find index for a saved pose node while building ordered pose list.
+[2020.09.21-01.48.49:997][298]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2020.09.21-01.49.20:564][608]BlueprintLog: New page: Compile Mannequin_AnimBP
+[2020.09.21-01.49.20:695][608]LogBlueprint: Error: [Compiler Mannequin_AnimBP] Failed to find index for a saved pose node while building ordered pose list.
+[2020.09.21-01.49.20:915][608]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.09.21-01.49.27:700][323]BlueprintLog: New page: Compile Mannequin_AnimBP
+[2020.09.21-01.49.27:824][323]LogBlueprint: Error: [Compiler Mannequin_AnimBP] Failed to find index for a saved pose node while building ordered pose list.
+[2020.09.21-01.49.28:047][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.09.21-01.49.52:655][708]LogUObjectHash: Warning: Ambiguous path search, could be AnimGraphNode_SaveCachedPose /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:AnimGraph.AnimGraphNode_SaveCachedPose_0 or AnimGraphNode_SaveCachedPose /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP:AnimGraph.AnimGraphNode_SaveCachedPose_0
+[2020.09.21-01.49.52:655][708]LogUObjectHash: Warning: Ambiguous path search, could be AnimGraphNode_SaveCachedPose /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP:AnimGraph.AnimGraphNode_SaveCachedPose_0 or AnimGraphNode_SaveCachedPose /Engine/Transient.PROTO_BP_AnimBlueprint_0:AnimGraph.AnimGraphNode_SaveCachedPose_0
+[2020.09.21-01.50.01:403][490]BlueprintLog: New page: Compile Mannequin_AnimBP
+[2020.09.21-01.50.01:793][490]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.09.21-01.50.05:305][839]BlueprintLog: New page: Compile Mannequin_IK_AnimBP
+[2020.09.21-01.50.05:435][839]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.09.21-01.50.07:190][  0]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.21-01.50.07:202][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.21-01.50.07:202][  0]PIE: New page: PIE session: ALSV3_DemoLevel_SP (21 Sep 2020, 03:50:07)
+[2020.09.21-01.50.07:204][  0]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.09.21-01.50.07:204][  0]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.09.21-01.50.07:205][  0]LogPlayLevel: Creating play world package: /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP
+[2020.09.21-01.50.07:220][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015620s)
+[2020.09.21-01.50.07:221][  0]LogAIModule: Creating AISystem for world ALSV3_DemoLevel_SP
+[2020.09.21-01.50.07:221][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D32BA6C400), frame # 84000
+[2020.09.21-01.50.07:221][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D3649BA5C0), frame # 84000
+[2020.09.21-01.50.07:221][  0]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2020.09.21-01.50.07:221][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AdvancedLocomotionV3/Maps/ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP to /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP (0.016828s)
+[2020.09.21-01.50.07:252][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.09.21-01.50.07:253][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.21-01.50.07:253][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.21-01.50.07:253][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.21-01.50.07:253][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.21-01.50.07:253][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.21-01.50.07:253][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.21-01.50.07:253][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.21-01.50.07:253][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.21-01.50.07:253][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.21-01.50.07:253][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.21-01.50.07:258][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.21-01.50.07:258][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.21-01.50.07:258][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.21-01.50.07:258][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.21-01.50.07:258][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.09.21-01.50.07:258][  0]LogAudioMixer: Display: 5: BackRight
+[2020.09.21-01.50.07:258][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.09.21-01.50.07:258][  0]LogAudioMixer: Display: 7: SideRight
+[2020.09.21-01.50.07:283][  0]LogAudioMixer: Display: Using Audio Device Speakers (Logitech G433 Gaming Headset)
+[2020.09.21-01.50.07:283][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.21-01.50.07:283][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.21-01.50.07:283][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.21-01.50.07:284][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.21-01.50.07:297][  0]LogInit: FAudioDevice initialized.
+[2020.09.21-01.50.07:303][  0]LogLoad: Game class is 'ALS_GameMode_SP_C'
+[2020.09.21-01.50.07:307][  0]LogWorld: Bringing World /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP up for play (max tick rate 0) at 2020.09.21-02.50.07
+[2020.09.21-01.50.07:308][  0]LogWorld: Bringing up level for play took: 0.004086
+[2020.09.21-01.50.07:309][  0]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.09.21-01.50.07:321][  0]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.09.21-01.50.07:322][  0]PIE: Server logged in
+[2020.09.21-01.50.07:323][  0]PIE: Play in editor total start time 0.123 seconds.
+[2020.09.21-01.50.13:038][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.50.13:039][610]LogWorld: BeginTearingDown for /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP
+[2020.09.21-01.50.13:039][610]LogWorld: UWorld::CleanupWorld for ALSV3_DemoLevel_SP, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-01.50.13:039][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.50.13:047][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.21-01.50.13:051][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.50.13:098][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.50.13:116][610]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D3649BA5C0), frame # 84610
+[2020.09.21-01.50.13:116][610]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D32BA6C400), frame # 84610
+[2020.09.21-01.50.13:122][610]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.09.21-01.50.13:153][611]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.09.21-01.50.17:836][985]LogSavePackage: Moving 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Mannequin_AnimBP09FD2B8343FE232EA8433CBE61B79FCD.tmp' to 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.uasset'
+[2020.09.21-01.50.17:858][985]AssetCheck: New page: Asset Save: Mannequin_AnimBP
+[2020.09.21-01.50.17:858][985]LogContentValidation: Display: Validating AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP
+[2020.09.21-01.50.18:801][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.09.21-01.50.20:624][ 51]LogSlate: Window 'Delete Assets' being destroyed
+[2020.09.21-01.50.22:070][ 51]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-01.50.22:070][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.50.22:104][ 51]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-01.50.22:104][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.50.22:109][ 51]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-01.50.22:109][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.50.22:151][ 51]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_IK_AnimBP.Mannequin_IK_AnimBP
+[2020.09.21-01.50.24:340][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.09.21-01.50.24:367][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.09.21-01.50.24:389][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.09.21-01.50.25:644][181]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.21-01.50.25:657][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.21-01.50.25:657][181]PIE: New page: PIE session: ALSV3_DemoLevel_SP (21 Sep 2020, 03:50:25)
+[2020.09.21-01.50.25:657][181]LogPlayLevel: Creating play world package: /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP
+[2020.09.21-01.50.25:671][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013614s)
+[2020.09.21-01.50.25:672][181]LogAIModule: Creating AISystem for world ALSV3_DemoLevel_SP
+[2020.09.21-01.50.25:672][181]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D3584A0400), frame # 85181
+[2020.09.21-01.50.25:672][181]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D36B438680), frame # 85181
+[2020.09.21-01.50.25:672][181]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2020.09.21-01.50.25:672][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AdvancedLocomotionV3/Maps/ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP to /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP (0.014633s)
+[2020.09.21-01.50.25:695][181]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.09.21-01.50.25:698][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.21-01.50.25:698][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.21-01.50.25:698][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.21-01.50.25:699][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.21-01.50.25:699][181]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.21-01.50.25:699][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.21-01.50.25:699][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.21-01.50.25:699][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.21-01.50.25:699][181]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.21-01.50.25:699][181]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.21-01.50.25:702][181]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.21-01.50.25:702][181]LogAudioMixer: Display: 1: FrontRight
+[2020.09.21-01.50.25:702][181]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.21-01.50.25:702][181]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.21-01.50.25:702][181]LogAudioMixer: Display: 4: BackLeft
+[2020.09.21-01.50.25:702][181]LogAudioMixer: Display: 5: BackRight
+[2020.09.21-01.50.25:702][181]LogAudioMixer: Display: 6: SideLeft
+[2020.09.21-01.50.25:702][181]LogAudioMixer: Display: 7: SideRight
+[2020.09.21-01.50.25:727][181]LogAudioMixer: Display: Using Audio Device Speakers (Logitech G433 Gaming Headset)
+[2020.09.21-01.50.25:728][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.21-01.50.25:728][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.21-01.50.25:728][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.21-01.50.25:728][181]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.21-01.50.25:738][181]LogInit: FAudioDevice initialized.
+[2020.09.21-01.50.25:751][181]LogLoad: Game class is 'ALS_GameMode_SP_C'
+[2020.09.21-01.50.25:754][181]LogWorld: Bringing World /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP up for play (max tick rate 0) at 2020.09.21-02.50.25
+[2020.09.21-01.50.25:754][181]LogWorld: Bringing up level for play took: 0.002576
+[2020.09.21-01.50.25:755][181]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.09.21-01.50.25:757][181]PIE: Server logged in
+[2020.09.21-01.50.25:758][181]PIE: Play in editor total start time 0.102 seconds.
+[2020.09.21-01.52.17:018][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.52.17:018][934]LogWorld: BeginTearingDown for /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP
+[2020.09.21-01.52.17:019][934]LogWorld: UWorld::CleanupWorld for ALSV3_DemoLevel_SP, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-01.52.17:019][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.52.17:028][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.21-01.52.17:033][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.52.17:054][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.52.17:072][934]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D36B438680), frame # 97934
+[2020.09.21-01.52.17:072][934]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D3584A0400), frame # 97934
+[2020.09.21-01.52.17:078][934]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2020.09.21-01.52.17:106][935]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.09.21-01.52.19:449][110]LogSavePackage: Moving 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Mannequin_AnimBP2B32E20242273BB3406CEAB6CCBDB6AF.tmp' to 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.uasset'
+[2020.09.21-01.52.19:464][110]AssetCheck: New page: Asset Save: Mannequin_AnimBP
+[2020.09.21-01.52.19:464][110]LogContentValidation: Display: Validating AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP
+[2020.09.21-01.52.26:669][799]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AdvancedLocomotionV3/Blueprints/ALS_BaseCharacter.ALS_BaseCharacter
+[2020.09.21-01.54.12:262][169]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'AActor::K2_SetActorRotation' [Element not found.]
+[2020.09.21-01.55.13:035][261]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.21-01.55.13:047][261]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.09.21-01.55.13:061][261]LogPlayLevel: [PlayLevel] Compiling ALS_BaseCharacter before play...
+[2020.09.21-01.55.13:061][261]LogPlayLevel: [PlayLevel]   Compiling MannequinCharacter as a dependent...
+[2020.09.21-01.55.13:437][261]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.09.21-01.55.13:439][261]LogPlayLevel: PlayLevel: Blueprint regeneration took 391 ms (2 blueprints)
+[2020.09.21-01.55.13:439][261]PIE: New page: PIE session: ALSV3_DemoLevel_SP (21 Sep 2020, 03:55:13)
+[2020.09.21-01.55.13:441][261]LogPlayLevel: Creating play world package: /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP
+[2020.09.21-01.55.13:458][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016816s)
+[2020.09.21-01.55.13:459][261]LogAIModule: Creating AISystem for world ALSV3_DemoLevel_SP
+[2020.09.21-01.55.13:459][261]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D352472E00), frame # 118261
+[2020.09.21-01.55.13:459][261]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D378060900), frame # 118261
+[2020.09.21-01.55.13:460][261]LogPlayLevel: PIE: World Init took: (0.001224s)
+[2020.09.21-01.55.13:460][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AdvancedLocomotionV3/Maps/ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP to /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP (0.018248s)
+[2020.09.21-01.55.13:488][261]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.09.21-01.55.13:489][261]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.21-01.55.13:489][261]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.21-01.55.13:489][261]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.21-01.55.13:489][261]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.21-01.55.13:489][261]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.21-01.55.13:489][261]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.21-01.55.13:489][261]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.21-01.55.13:489][261]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.21-01.55.13:490][261]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.21-01.55.13:490][261]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.21-01.55.13:493][261]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.21-01.55.13:493][261]LogAudioMixer: Display: 1: FrontRight
+[2020.09.21-01.55.13:493][261]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.21-01.55.13:493][261]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.21-01.55.13:493][261]LogAudioMixer: Display: 4: BackLeft
+[2020.09.21-01.55.13:493][261]LogAudioMixer: Display: 5: BackRight
+[2020.09.21-01.55.13:493][261]LogAudioMixer: Display: 6: SideLeft
+[2020.09.21-01.55.13:493][261]LogAudioMixer: Display: 7: SideRight
+[2020.09.21-01.55.13:519][261]LogAudioMixer: Display: Using Audio Device Speakers (Logitech G433 Gaming Headset)
+[2020.09.21-01.55.13:519][261]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.21-01.55.13:519][261]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.21-01.55.13:519][261]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.21-01.55.13:520][261]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.21-01.55.13:531][261]LogInit: FAudioDevice initialized.
+[2020.09.21-01.55.13:582][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.55.13:582][261]LogLoad: Game class is 'ALS_GameMode_SP_C'
+[2020.09.21-01.55.13:586][261]LogWorld: Bringing World /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP up for play (max tick rate 0) at 2020.09.21-02.55.13
+[2020.09.21-01.55.13:587][261]LogWorld: Bringing up level for play took: 0.004644
+[2020.09.21-01.55.13:588][261]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.09.21-01.55.13:589][261]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.09.21-01.55.13:592][261]PIE: Server logged in
+[2020.09.21-01.55.13:593][261]PIE: Play in editor total start time 0.548 seconds.
+[2020.09.21-01.55.41:458][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.55.41:458][187]LogWorld: BeginTearingDown for /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP
+[2020.09.21-01.55.41:459][187]LogSlate: Window 'AdvancedLocomotionV3 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.09.21-01.55.41:463][187]LogWorld: UWorld::CleanupWorld for ALSV3_DemoLevel_SP, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-01.55.41:464][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.55.41:476][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.21-01.55.41:482][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.55.41:534][187]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D378060900), frame # 121187
+[2020.09.21-01.55.41:534][187]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D352472E00), frame # 121187
+[2020.09.21-01.55.41:540][187]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2020.09.21-01.55.41:563][188]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.09.21-01.56.18:860][543]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.21-01.56.18:873][543]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.09.21-01.56.18:884][543]LogPlayLevel: [PlayLevel] Compiling ALS_BaseCharacter before play...
+[2020.09.21-01.56.18:884][543]LogPlayLevel: [PlayLevel]   Compiling MannequinCharacter as a dependent...
+[2020.09.21-01.56.19:229][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.09.21-01.56.19:231][543]LogPlayLevel: PlayLevel: Blueprint regeneration took 357 ms (2 blueprints)
+[2020.09.21-01.56.19:231][543]PIE: New page: PIE session: ALSV3_DemoLevel_SP (21 Sep 2020, 03:56:19)
+[2020.09.21-01.56.19:231][543]LogPlayLevel: Creating play world package: /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP
+[2020.09.21-01.56.19:246][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015253s)
+[2020.09.21-01.56.19:247][543]LogAIModule: Creating AISystem for world ALSV3_DemoLevel_SP
+[2020.09.21-01.56.19:248][543]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D377250C00), frame # 125543
+[2020.09.21-01.56.19:248][543]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D352B4DE40), frame # 125543
+[2020.09.21-01.56.19:248][543]LogPlayLevel: PIE: World Init took: (0.001669s)
+[2020.09.21-01.56.19:248][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AdvancedLocomotionV3/Maps/ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP to /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP (0.017117s)
+[2020.09.21-01.56.19:277][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.09.21-01.56.19:278][543]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.21-01.56.19:278][543]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.21-01.56.19:278][543]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.21-01.56.19:278][543]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.21-01.56.19:278][543]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.21-01.56.19:278][543]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.21-01.56.19:278][543]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.21-01.56.19:278][543]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.21-01.56.19:278][543]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.21-01.56.19:278][543]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.21-01.56.19:281][543]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.21-01.56.19:281][543]LogAudioMixer: Display: 1: FrontRight
+[2020.09.21-01.56.19:281][543]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.21-01.56.19:282][543]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.21-01.56.19:282][543]LogAudioMixer: Display: 4: BackLeft
+[2020.09.21-01.56.19:282][543]LogAudioMixer: Display: 5: BackRight
+[2020.09.21-01.56.19:282][543]LogAudioMixer: Display: 6: SideLeft
+[2020.09.21-01.56.19:282][543]LogAudioMixer: Display: 7: SideRight
+[2020.09.21-01.56.19:307][543]LogAudioMixer: Display: Using Audio Device Speakers (Logitech G433 Gaming Headset)
+[2020.09.21-01.56.19:307][543]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.21-01.56.19:307][543]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.21-01.56.19:307][543]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.21-01.56.19:307][543]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.21-01.56.19:318][543]LogInit: FAudioDevice initialized.
+[2020.09.21-01.56.19:373][543]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.56.19:373][543]LogLoad: Game class is 'ALS_GameMode_SP_C'
+[2020.09.21-01.56.19:379][543]LogWorld: Bringing World /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP up for play (max tick rate 0) at 2020.09.21-02.56.19
+[2020.09.21-01.56.19:379][543]LogWorld: Bringing up level for play took: 0.005113
+[2020.09.21-01.56.19:380][543]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.09.21-01.56.19:382][543]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.09.21-01.56.19:385][543]PIE: Server logged in
+[2020.09.21-01.56.19:385][543]PIE: Play in editor total start time 0.514 seconds.
+[2020.09.21-01.56.34:129][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.56.34:129][ 76]LogWorld: BeginTearingDown for /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP
+[2020.09.21-01.56.34:129][ 76]LogSlate: Window 'AdvancedLocomotionV3 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.09.21-01.56.34:134][ 76]LogWorld: UWorld::CleanupWorld for ALSV3_DemoLevel_SP, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-01.56.34:135][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.56.34:144][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.21-01.56.34:152][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.56.34:201][ 76]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D352B4DE40), frame # 127076
+[2020.09.21-01.56.34:201][ 76]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D377250C00), frame # 127076
+[2020.09.21-01.56.34:204][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.09.21-01.56.34:233][ 77]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.09.21-01.57.01:545][249]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.21-01.57.01:559][249]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.09.21-01.57.01:571][249]LogPlayLevel: [PlayLevel] Compiling ALS_BaseCharacter before play...
+[2020.09.21-01.57.01:571][249]LogPlayLevel: [PlayLevel]   Compiling MannequinCharacter as a dependent...
+[2020.09.21-01.57.01:921][249]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2020.09.21-01.57.01:922][249]LogPlayLevel: PlayLevel: Blueprint regeneration took 363 ms (2 blueprints)
+[2020.09.21-01.57.01:922][249]PIE: New page: PIE session: ALSV3_DemoLevel_SP (21 Sep 2020, 03:57:01)
+[2020.09.21-01.57.01:922][249]LogPlayLevel: Creating play world package: /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP
+[2020.09.21-01.57.01:937][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015580s)
+[2020.09.21-01.57.01:938][249]LogAIModule: Creating AISystem for world ALSV3_DemoLevel_SP
+[2020.09.21-01.57.01:938][249]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D375BDB400), frame # 130249
+[2020.09.21-01.57.01:938][249]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D34C218A40), frame # 130249
+[2020.09.21-01.57.01:939][249]LogPlayLevel: PIE: World Init took: (0.001273s)
+[2020.09.21-01.57.01:939][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AdvancedLocomotionV3/Maps/ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP to /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP (0.017010s)
+[2020.09.21-01.57.01:965][249]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.09.21-01.57.01:965][249]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.21-01.57.01:965][249]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.21-01.57.01:966][249]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.21-01.57.01:966][249]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.21-01.57.01:966][249]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.21-01.57.01:966][249]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.21-01.57.01:966][249]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.21-01.57.01:966][249]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.21-01.57.01:966][249]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.21-01.57.01:966][249]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.21-01.57.01:970][249]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.21-01.57.01:970][249]LogAudioMixer: Display: 1: FrontRight
+[2020.09.21-01.57.01:970][249]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.21-01.57.01:970][249]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.21-01.57.01:970][249]LogAudioMixer: Display: 4: BackLeft
+[2020.09.21-01.57.01:970][249]LogAudioMixer: Display: 5: BackRight
+[2020.09.21-01.57.01:970][249]LogAudioMixer: Display: 6: SideLeft
+[2020.09.21-01.57.01:970][249]LogAudioMixer: Display: 7: SideRight
+[2020.09.21-01.57.01:995][249]LogAudioMixer: Display: Using Audio Device Speakers (Logitech G433 Gaming Headset)
+[2020.09.21-01.57.01:995][249]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.21-01.57.01:995][249]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.21-01.57.01:995][249]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.21-01.57.01:995][249]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.21-01.57.02:007][249]LogInit: FAudioDevice initialized.
+[2020.09.21-01.57.02:057][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.57.02:058][249]LogLoad: Game class is 'ALS_GameMode_SP_C'
+[2020.09.21-01.57.02:064][249]LogWorld: Bringing World /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP up for play (max tick rate 0) at 2020.09.21-02.57.02
+[2020.09.21-01.57.02:065][249]LogWorld: Bringing up level for play took: 0.006520
+[2020.09.21-01.57.02:065][249]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.09.21-01.57.02:069][249]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.09.21-01.57.02:072][249]PIE: Server logged in
+[2020.09.21-01.57.02:073][249]PIE: Play in editor total start time 0.516 seconds.
+[2020.09.21-01.57.52:890][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-01.57.52:890][440]LogWorld: BeginTearingDown for /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP
+[2020.09.21-01.57.52:891][440]LogSlate: Window 'AdvancedLocomotionV3 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.09.21-01.57.52:896][440]LogWorld: UWorld::CleanupWorld for ALSV3_DemoLevel_SP, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-01.57.52:897][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.57.52:902][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.21-01.57.52:913][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-01.57.52:967][440]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D34C218A40), frame # 135440
+[2020.09.21-01.57.52:967][440]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D375BDB400), frame # 135440
+[2020.09.21-01.57.52:972][440]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2020.09.21-01.57.52:994][441]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.09.21-01.58.13:923][860]BlueprintLog: New page: Compile ALS_BaseCharacter
+[2020.09.21-01.58.14:204][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.09.21-01.58.19:933][486]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2020.09.21-01.58.20:072][486]LogSavePackage: Moving 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/ALSV3_DemoLevel_SP_Auto106171C70496A252B90662CBB424A4BDE.tmp' to 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Autosaves/Game/AdvancedLocomotionV3/Maps/ALSV3_DemoLevel_SP_Auto1.umap'
+[2020.09.21-01.58.20:073][486]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AdvancedLocomotionV3/Maps/ALSV3_DemoLevel_SP' took 0.177
+[2020.09.21-01.58.20:073][486]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.177
+[2020.09.21-01.58.20:074][486]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AdvancedLocomotionV3/Blueprints/ALS_BaseCharacter] ([1] browsable assets)...
+[2020.09.21-01.58.20:074][486]OBJ SavePackage: Finished generating thumbnails for package [/Game/AdvancedLocomotionV3/Blueprints/ALS_BaseCharacter]
+[2020.09.21-01.58.20:890][486]LogSavePackage: Moving 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/ALS_BaseCharacter_Auto1784FBDBE4C742FFDF6A108B0EA4EB88A.tmp' to 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Autosaves/Game/AdvancedLocomotionV3/Blueprints/ALS_BaseCharacter_Auto1.uasset'
+[2020.09.21-01.58.20:891][486]LogFileHelpers: Auto-saving content packages took 0.817
+[2020.09.21-01.58.41:494][828]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'AActor::K2_SetActorRotation' [Element not found.]
+[2020.09.21-02.00.06:762][334]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.21-02.00.06:774][334]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.09.21-02.00.06:784][334]LogPlayLevel: [PlayLevel] Compiling ALS_BaseCharacter before play...
+[2020.09.21-02.00.06:784][334]LogPlayLevel: [PlayLevel]   Compiling MannequinCharacter as a dependent...
+[2020.09.21-02.00.07:134][334]LogPlayLevel: [PlayLevel] Compiling Mannequin_AnimBP before play...
+[2020.09.21-02.00.07:597][334]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.09.21-02.00.07:599][334]LogPlayLevel: PlayLevel: Blueprint regeneration took 825 ms (3 blueprints)
+[2020.09.21-02.00.07:599][334]PIE: New page: PIE session: ALSV3_DemoLevel_SP (21 Sep 2020, 04:00:07)
+[2020.09.21-02.00.07:599][334]LogPlayLevel: Creating play world package: /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP
+[2020.09.21-02.00.07:619][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018903s)
+[2020.09.21-02.00.07:620][334]LogAIModule: Creating AISystem for world ALSV3_DemoLevel_SP
+[2020.09.21-02.00.07:620][334]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D316BBDE00), frame # 148334
+[2020.09.21-02.00.07:620][334]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D35185F4C0), frame # 148334
+[2020.09.21-02.00.07:621][334]LogPlayLevel: PIE: World Init took: (0.002291s)
+[2020.09.21-02.00.07:621][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AdvancedLocomotionV3/Maps/ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP to /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP (0.021411s)
+[2020.09.21-02.00.07:654][334]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.09.21-02.00.07:655][334]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.21-02.00.07:655][334]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.21-02.00.07:655][334]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.21-02.00.07:655][334]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.21-02.00.07:655][334]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.21-02.00.07:655][334]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.21-02.00.07:655][334]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.21-02.00.07:655][334]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.21-02.00.07:655][334]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.21-02.00.07:655][334]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.21-02.00.07:659][334]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.21-02.00.07:659][334]LogAudioMixer: Display: 1: FrontRight
+[2020.09.21-02.00.07:659][334]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.21-02.00.07:659][334]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.21-02.00.07:659][334]LogAudioMixer: Display: 4: BackLeft
+[2020.09.21-02.00.07:659][334]LogAudioMixer: Display: 5: BackRight
+[2020.09.21-02.00.07:659][334]LogAudioMixer: Display: 6: SideLeft
+[2020.09.21-02.00.07:659][334]LogAudioMixer: Display: 7: SideRight
+[2020.09.21-02.00.07:689][334]LogAudioMixer: Display: Using Audio Device Speakers (Logitech G433 Gaming Headset)
+[2020.09.21-02.00.07:689][334]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.21-02.00.07:689][334]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.21-02.00.07:689][334]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.21-02.00.07:689][334]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.21-02.00.07:699][334]LogInit: FAudioDevice initialized.
+[2020.09.21-02.00.07:763][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-02.00.07:763][334]LogLoad: Game class is 'ALS_GameMode_SP_C'
+[2020.09.21-02.00.07:768][334]LogWorld: Bringing World /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP up for play (max tick rate 0) at 2020.09.21-03.00.07
+[2020.09.21-02.00.07:769][334]LogWorld: Bringing up level for play took: 0.005714
+[2020.09.21-02.00.07:770][334]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.09.21-02.00.07:772][334]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.09.21-02.00.07:775][334]PIE: Server logged in
+[2020.09.21-02.00.07:776][334]PIE: Play in editor total start time 1.002 seconds.
+[2020.09.21-02.00.44:797][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.21-02.00.44:797][369]LogWorld: BeginTearingDown for /Game/AdvancedLocomotionV3/Maps/UEDPIE_0_ALSV3_DemoLevel_SP
+[2020.09.21-02.00.44:798][369]LogSlate: Window 'AdvancedLocomotionV3 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.09.21-02.00.44:804][369]LogWorld: UWorld::CleanupWorld for ALSV3_DemoLevel_SP, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-02.00.44:805][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-02.00.44:811][369]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.21-02.00.44:816][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-02.00.44:871][369]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D35185F4C0), frame # 150369
+[2020.09.21-02.00.44:871][369]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D316BBDE00), frame # 150369
+[2020.09.21-02.00.44:874][369]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.09.21-02.00.44:901][370]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.09.21-02.01.01:952][831]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.09.21-02.01.03:430][831]LogSlate: Window 'Save Content' being destroyed
+[2020.09.21-02.01.03:871][831]LogSavePackage: Moving 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/ALS_BaseCharacter33E4BAE54A41182953AA83A9737BD1CF.tmp' to 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Blueprints/ALS_BaseCharacter.uasset'
+[2020.09.21-02.01.04:455][831]LogSavePackage: Moving 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Mannequin_AnimBPED0FF08A439A2EBA19923F946604FFB0.tmp' to 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.uasset'
+[2020.09.21-02.01.04:489][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.09.21-02.01.04:631][831]LogSavePackage: Moving 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/ALSV3_DemoLevel_SPF4095FE8476E0B670F4E1083BC4D02C2.tmp' to 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Maps/ALSV3_DemoLevel_SP.umap'
+[2020.09.21-02.01.04:651][831]LogFileHelpers: Saving map 'ALSV3_DemoLevel_SP' took 0.193
+[2020.09.21-02.01.04:746][831]LogSavePackage: Moving 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/ALSV3_DemoLevel_SP_BuiltData7C6CDE2B42800F577B0EF3B1B7511CF9.tmp' to 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/AdvancedLocomotionV3/Maps/ALSV3_DemoLevel_SP_BuiltData.uasset'
+[2020.09.21-02.01.04:781][831]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.21-02.01.04:781][831]LogContentValidation: Display: Validating Blueprint /Game/AdvancedLocomotionV3/Blueprints/ALS_BaseCharacter.ALS_BaseCharacter
+[2020.09.21-02.01.04:781][831]LogContentValidation: Display: Validating AnimBlueprint /Game/AdvancedLocomotionV3/Characters/Mannequin/Mannequin_AnimBP.Mannequin_AnimBP
+[2020.09.21-02.01.04:781][831]LogContentValidation: Display: Validating World /Game/AdvancedLocomotionV3/Maps/ALSV3_DemoLevel_SP.ALSV3_DemoLevel_SP
+[2020.09.21-02.01.04:781][831]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/AdvancedLocomotionV3/Maps/ALSV3_DemoLevel_SP_BuiltData.ALSV3_DemoLevel_SP_BuiltData
+[2020.09.21-02.01.10:352][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.09.21-02.01.13:444][473]LogSlate: Window 'Delete Assets' being destroyed
+[2020.09.21-02.01.29:617][473]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-02.01.29:617][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-02.01.29:653][473]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-02.01.29:653][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-02.01.29:658][473]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.09.21-02.01.29:658][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.21-02.01.29:694][473]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/AdvancedLocomotionV3/Blueprints/AnimNotifys/Footstep_AnimNotify.Footstep_AnimNotify
+[2020.09.21-02.02.16:792][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.09.21-02.02.16:849][473]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2020.09.21-02.02.16:869][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.09.21-02.03.02:072][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.09.21-02.03.12:106][ 56]LogSlate: Window 'Delete Assets' being destroyed
+[2020.09.21-02.03.21:592][ 56]LogUObjectGlobals: Force Deleting 17 Package(s):
+	Asset Name: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_01.Concrete_Pivot_01
+	Asset Name: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_02.Concrete_Pivot_02
+	Asset Name: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_03.Concrete_Pivot_03
+	Asset Name: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_04.Concrete_Pivot_04
+	Asset Name: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_01.Concrete_Run_01
+	Asset Name: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_02.Concrete_Run_02
+	Asset Name: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_03.Concrete_Run_03
+	Asset Name: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_04.Concrete_Run_04
+	Asset Name: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Step_01.Concrete_Step_01
+	Asset Name: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Step_02.Concrete_Step_02
+[2020.09.21-02.03.30:277][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.30:280][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_01.Concrete_Pivot_01 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_01.Concrete_Pivot_01:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_1 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_25 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.30:281][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Pivot_01, this package is now potentially corrupt
+[2020.09.21-02.03.31:336][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.31:340][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_02.Concrete_Pivot_02 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_02.Concrete_Pivot_02:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_4 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_26 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.31:340][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Pivot_02, this package is now potentially corrupt
+[2020.09.21-02.03.33:090][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.33:093][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_03.Concrete_Pivot_03 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_03.Concrete_Pivot_03:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_5 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.33:093][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Pivot_03, this package is now potentially corrupt
+[2020.09.21-02.03.34:414][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.34:419][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_04.Concrete_Pivot_04 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_04.Concrete_Pivot_04:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_7 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.34:419][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Pivot_04, this package is now potentially corrupt
+[2020.09.21-02.03.35:058][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.35:062][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_01.Concrete_Run_01 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_01.Concrete_Run_01:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_11 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.35:062][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Run_01, this package is now potentially corrupt
+[2020.09.21-02.03.36:293][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.36:298][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_02.Concrete_Run_02 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_02.Concrete_Run_02:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_14 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.36:298][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Run_02, this package is now potentially corrupt
+[2020.09.21-02.03.37:066][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.37:070][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_03.Concrete_Run_03 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_03.Concrete_Run_03:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_15 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.37:070][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Run_03, this package is now potentially corrupt
+[2020.09.21-02.03.37:657][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.37:661][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_04.Concrete_Run_04 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_04.Concrete_Run_04:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_16 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.37:661][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Run_04, this package is now potentially corrupt
+[2020.09.21-02.03.39:270][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.39:274][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Step_01.Concrete_Step_01 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Step_01.Concrete_Step_01:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_17 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_0 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.39:274][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Step_01, this package is now potentially corrupt
+[2020.09.21-02.03.39:845][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.39:850][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Step_02.Concrete_Step_02 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Step_02.Concrete_Step_02:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_18 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_2 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.39:850][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Step_02, this package is now potentially corrupt
+[2020.09.21-02.03.40:956][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.40:960][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Step_03.Concrete_Step_03 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Step_03.Concrete_Step_03:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_19 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.40:960][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Step_03, this package is now potentially corrupt
+[2020.09.21-02.03.41:611][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.41:615][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_01.Concrete_Walk_01 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_01.Concrete_Walk_01:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_20 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.41:615][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Walk_01, this package is now potentially corrupt
+[2020.09.21-02.03.42:209][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.42:213][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_02.Concrete_Walk_02 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_02.Concrete_Walk_02:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_21 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.42:213][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Walk_02, this package is now potentially corrupt
+[2020.09.21-02.03.42:826][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.42:830][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_03.Concrete_Walk_03 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_03.Concrete_Walk_03:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_22 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.42:830][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Walk_03, this package is now potentially corrupt
+[2020.09.21-02.03.43:477][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.43:481][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_04.Concrete_Walk_04 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_04.Concrete_Walk_04:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_23 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.43:481][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Walk_04, this package is now potentially corrupt
+[2020.09.21-02.03.44:163][ 56]LogSlate: Window 'Message' being destroyed
+[2020.09.21-02.03.44:168][ 56]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_05.Concrete_Walk_05 is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_05.Concrete_Walk_05:
+   SoundNodeWavePlayer /Game/AdvancedLocomotionV3/Audio/Footsteps/Footstep_Cue.Footstep_Cue:SoundNodeWavePlayer_24 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2020.09.21-02.03.44:168][ 56]LogObjectTools: Warning: ForceDeleteObject failed to delete Concrete_Walk_05, this package is now potentially corrupt
+[2020.09.21-02.03.44:368][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.09.21-02.03.44:390][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.09.21-02.03.44:409][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.09.21-02.03.44:410][ 56]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.09.21-02.03.44:411][ 56]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: === Handled ensure: ===
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: 
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Editor/UnrealEd/Private/ObjectTools.cpp] [Line: 2891]
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: 
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: 					Failed to unload all packages during ForceDeleteObjects - 
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: 					these packages are likely corrupt. Consider restarting the 
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: 					editor, noting which assets remain and then deleting them 
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: 					from the file system manually: 
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_01
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_02
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_03
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Pivot_04
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_01
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_02
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_03
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Run_04
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Step_01
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Step_02
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Step_03
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_01
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_02
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_03
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_04
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: /Game/AdvancedLocomotionV3/Audio/Footsteps/Concrete/Concrete_Walk_05
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: Stack: 
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffcce9c3d8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffcc7852d9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffcbf39e39 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffcc1dd43e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffcc1d6dc7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd788207e UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd789b27e UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd76e2dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd77669cf UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd774f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd7742392 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff801777f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff801765c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff80177a609 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff8017617d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff8483ce338 USER32.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff8483cdd79 USER32.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff80177b9c9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd7770d5d UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd770bdb7 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffcc26f00e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffcc7794dc UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fff9d22d838 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fff9d239f94 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fff9d235722 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fff9d297f72 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.09.21-02.03.44:411][ 56]LogOutputDevice: Error: [Callstack] 0x00007fff9d236847 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd788207e UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd789b27e UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd76e2dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd77669cf UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd774f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007fffd7742392 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff801777f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff801765c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff80177a609 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff8017617d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff8483ce338 USER32.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff8483cdd79 USER32.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff80177bb24 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff7f3c268c4 UE4Editor.exe!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff7f3c3ba7c UE4Editor.exe!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff7f3c3bb5a UE4Editor.exe!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff7f3c4e31d UE4Editor.exe!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff7f3c5145a UE4Editor.exe!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff848ac6fd4 KERNEL32.DLL!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: [Callstack] 0x00007ff849efcec1 ntdll.dll!UnknownFunction []
+[2020.09.21-02.03.44:412][ 56]LogOutputDevice: Error: 

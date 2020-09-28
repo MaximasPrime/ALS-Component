@@ -1,0 +1,1447 @@
+﻿Log file open, 09/28/20 16:02:22
+LogInit: Display: Running engine for game: ALS3
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.230124
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin PTMTool
+LogPluginManager: Mounting plugin Restart
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Game Dev/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:1]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.28-15.02.22:565][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.28-15.02.22:565][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.28-15.02.22:566][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.28-15.02.22:566][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.28-15.02.22:570][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.28-15.02.22:570][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.28-15.02.22:571][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.28-15.02.22:571][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.28-15.02.22:571][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.28-15.02.22:571][  0]LogHAL: Display: Platform has ~ 32 GB [34239057920 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.28-15.02.22:571][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.28-15.02.22:572][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.28-15.02.22:572][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:572][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2020.09.28-15.02.22:573][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2020.09.28-15.02.22:573][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Scalability.ini]
+[2020.09.28-15.02.22:573][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.28-15.02.22:573][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.28-15.02.22:573][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.28-15.02.22:573][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.28-15.02.22:573][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.28-15.02.22:573][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.28-15.02.22:573][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.28-15.02.22:573][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.28-15.02.22:573][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.28-15.02.22:573][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.28-15.02.22:573][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.28-15.02.22:573][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Config/Windows/Engine.ini]
+[2020.09.28-15.02.22:573][  0]LogInit: Computer: DESKTOP-N429GCM
+[2020.09.28-15.02.22:573][  0]LogInit: User: Max
+[2020.09.28-15.02.22:573][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.09.28-15.02.22:573][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.28-15.02.22:573][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.09.28-15.02.22:573][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.28-15.02.22:573][  0]LogMemory: Process Physical Memory: 116.82 MB used, 116.83 MB peak
+[2020.09.28-15.02.22:573][  0]LogMemory: Process Virtual Memory: 98.18 MB used, 98.18 MB peak
+[2020.09.28-15.02.22:573][  0]LogMemory: Physical Memory: 12013.01 MB used,  20639.90 MB free, 32652.91 MB total
+[2020.09.28-15.02.22:573][  0]LogMemory: Virtual Memory: 5125.59 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.09.28-15.02.22:578][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.28-15.02.22:609][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.28-15.02.22:612][  0]LogInit: Using OS detected language (en-GB).
+[2020.09.28-15.02.22:612][  0]LogInit: Using OS detected locale (en-GB).
+[2020.09.28-15.02.22:614][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.09.28-15.02.22:790][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.28-15.02.22:826][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.28-15.02.22:826][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.28-15.02.22:991][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.28-15.02.22:991][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.28-15.02.22:991][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.28-15.02.22:991][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.28-15.02.23:080][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2020.09.28-15.02.23:080][  0]LogD3D11RHI:       8079/0/16326 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.28-15.02.23:105][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.09.28-15.02.23:105][  0]LogD3D11RHI:       128/0/16326 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.09.28-15.02.23:107][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.28-15.02.23:107][  0]LogD3D11RHI:       0/0/16326 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.28-15.02.23:107][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.28-15.02.23:117][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.28-15.02.23:117][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.28-15.02.23:117][  0]LogWindows: EnumDisplayDevices:
+[2020.09.28-15.02.23:117][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2020.09.28-15.02.23:117][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2020.09.28-15.02.23:118][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2020.09.28-15.02.23:118][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2020.09.28-15.02.23:118][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2020.09.28-15.02.23:119][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.09.28-15.02.23:120][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.09.28-15.02.23:120][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.09.28-15.02.23:120][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2020.09.28-15.02.23:120][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.09.28-15.02.23:120][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.09.28-15.02.23:120][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2020.09.28-15.02.23:177][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.28-15.02.23:179][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.28-15.02.23:179][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.28-15.02.23:179][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.28-15.02.23:199][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.28-15.02.23:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.28-15.02.23:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.28-15.02.23:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.28-15.02.23:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.28-15.02.23:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.28-15.02.23:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.28-15.02.23:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.28-15.02.23:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.28-15.02.23:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.28-15.02.23:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.28-15.02.23:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.28-15.02.23:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.28-15.02.23:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.28-15.02.23:573][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.28-15.02.23:581][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.28-15.02.23:589][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.28-15.02.23:597][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.28-15.02.23:606][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.28-15.02.23:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.28-15.02.23:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.28-15.02.23:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.28-15.02.23:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.28-15.02.23:662][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.28-15.02.23:662][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.28-15.02.23:670][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.28-15.02.23:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.28-15.02.23:685][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.28-15.02.23:694][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.28-15.02.23:694][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.28-15.02.23:700][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.28-15.02.23:758][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (C:/Users/Max/Documents/Unreal Projects/ALS3/Intermediate/Shaders/WorkingDirectory/19380/).
+[2020.09.28-15.02.23:759][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Max/AppData/Local/Temp/UnrealShaderWorkingDir/7547373346521914A3386796CFAE4A1F/'.
+[2020.09.28-15.02.23:759][  0]LogXGEController: Cleaning working directory: C:/Users/Max/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.28-15.02.23:759][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.28-15.02.23:759][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.28-15.02.23:759][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.28-15.02.24:459][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.28-15.02.24:511][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/Max/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.28-15.02.24:511][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Max/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.28-15.02.24:511][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Max/Documents/Unreal Projects/ALS3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.28-15.02.24:511][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.28-15.02.24:511][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Max/Documents/Unreal Projects/ALS3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.28-15.02.24:511][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.28-15.02.24:520][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.28-15.02.24:520][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.28-15.02.24:520][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.28-15.02.24:521][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Max/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.28-15.02.24:521][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.28-15.02.24:521][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.28-15.02.24:565][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.28-15.02.24:565][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.28-15.02.24:589][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2020.09.28-15.02.24:805][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.28-15.02.24:908][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.28-15.02.24:908][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.28-15.02.24:908][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.28-15.02.24:908][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.28-15.02.24:908][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.28-15.02.24:921][  0]LogNetVersion: ALS3 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2651310105)
+[2020.09.28-15.02.25:310][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001A678C8C380), frame # 0
+[2020.09.28-15.02.25:310][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A678C08A40), frame # 0
+[2020.09.28-15.02.25:311][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A678C03000), frame # 0
+[2020.09.28-15.02.25:377][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.060951 seconds
+[2020.09.28-15.02.25:381][  0]LogUObjectArray: 15913 objects as part of root set at end of initial load.
+[2020.09.28-15.02.25:381][  0]LogUObjectAllocator: 3964304 out of 0 bytes used by permanent object pool.
+[2020.09.28-15.02.25:381][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.28-15.02.25:688][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.28-15.02.25:693][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.28-15.02.25:768][  0]SourceControl: Source control is disabled
+[2020.09.28-15.02.25:768][  0]SourceControl: Source control is disabled
+[2020.09.28-15.02.25:773][  0]SourceControl: Source control is disabled
+[2020.09.28-15.02.25:776][  0]SourceControl: Source control is disabled
+[2020.09.28-15.02.25:782][  0]SourceControl: Source control is disabled
+[2020.09.28-15.02.26:161][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.28-15.02.26:179][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.28-15.02.26:179][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.28-15.02.26:225][  0]LogOcInput: OculusInput pre-init called
+[2020.09.28-15.02.26:234][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.28-15.02.26:234][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.28-15.02.26:286][  0]LogEngine: Initializing Engine...
+[2020.09.28-15.02.26:288][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.28-15.02.26:288][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.28-15.02.26:289][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.28-15.02.26:397][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.28-15.02.26:404][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.28-15.02.26:404][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A67D2B9200), frame # 0
+[2020.09.28-15.02.26:404][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A67D2C9D00), frame # 0
+[2020.09.28-15.02.26:423][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.28-15.02.26:423][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.28-15.02.26:423][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.28-15.02.26:423][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.28-15.02.26:423][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.28-15.02.26:423][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.28-15.02.26:423][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.28-15.02.26:423][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.28-15.02.26:424][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.28-15.02.26:424][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.28-15.02.26:443][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.28-15.02.26:443][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.28-15.02.26:443][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.09.28-15.02.26:443][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.09.28-15.02.26:443][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.09.28-15.02.26:443][  0]LogAudioMixer: Display: 5: BackRight
+[2020.09.28-15.02.26:443][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.09.28-15.02.26:443][  0]LogAudioMixer: Display: 7: SideRight
+[2020.09.28-15.02.26:484][  0]LogAudioMixer: Display: Using Audio Device Speakers (Logitech G433 Gaming Headset)
+[2020.09.28-15.02.26:487][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.28-15.02.26:490][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.28-15.02.26:490][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.28-15.02.26:491][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.28-15.02.26:492][  0]LogInit: FAudioDevice initialized.
+[2020.09.28-15.02.26:492][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.28-15.02.26:562][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/Max/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.28-15.02.26:563][  0]LogInit: Texture streaming: Enabled
+[2020.09.28-15.02.26:578][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.28-15.02.26:578][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.28-15.02.26:581][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.28-15.02.26:630][  0]LogInit: Transaction tracking system initialized
+[2020.09.28-15.02.26:648][  0]BlueprintLog: New page: Editor Load
+[2020.09.28-15.02.26:710][  0]LocalizationService: Localization service is disabled
+[2020.09.28-15.02.27:012][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.28-15.02.27:012][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.28-15.02.27:141][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/' took 0.00s
+[2020.09.28-15.02.27:348][  0]SourceControl: Source control is disabled
+[2020.09.28-15.02.27:348][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.655
+[2020.09.28-15.02.27:348][  0]Cmd: MAP LOAD FILE="C:/Users/Max/Documents/Unreal Projects/ALS3/Content/ALS/Maps/ALSV3_DemoLevel_SP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.28-15.02.27:351][  0]LightingResults: New page: Lighting Build
+[2020.09.28-15.02.27:352][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.28-15.02.27:352][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.28-15.02.27:352][  0]MapCheck: New page: Map Check
+[2020.09.28-15.02.27:352][  0]LightingResults: New page: Lighting Build
+[2020.09.28-15.02.27:359][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A67D2B9200), frame # 0
+[2020.09.28-15.02.27:359][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A67D2C9D00), frame # 0
+[2020.09.28-15.02.27:360][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.09.28-15.02.28:762][  0]LogAIModule: Creating AISystem for world ALSV3_DemoLevel_SP
+[2020.09.28-15.02.28:763][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A61547FE00), frame # 0
+[2020.09.28-15.02.28:763][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A6000B4F40), frame # 0
+[2020.09.28-15.02.28:793][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.28-15.02.28:829][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.09.28-15.02.28:829][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.28-15.02.28:829][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.207ms to complete.
+[2020.09.28-15.02.28:829][  0]LogFileHelpers: Loading map 'ALSV3_DemoLevel_SP' took 1.481
+[2020.09.28-15.02.28:831][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.138
+[2020.09.28-15.02.28:962][  0]LogCollectionManager: Loaded 1 collections in 0.000832 seconds
+[2020.09.28-15.02.28:973][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Documents/Unreal Projects/ALS3/Saved/Collections/' took 0.00s
+[2020.09.28-15.02.28:973][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/Developers/Max/Collections/' took 0.00s
+[2020.09.28-15.02.28:973][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Documents/Unreal Projects/ALS3/Content/Collections/' took 0.00s
+[2020.09.28-15.02.28:973][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3427 classes and 821 folders.
+[2020.09.28-15.02.28:975][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.28-15.02.29:031][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.28-15.02.29:046][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.28-15.02.29:051][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.28-15.02.29:059][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.28-15.02.29:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.28-15.02.29:070][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.09.28-15.02.29:189][  0]LogSlate: Took 0.000460 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.28-15.02.29:191][  0]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.28-15.02.29:191][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.28-15.02.29:253][  0]LogRenderer: Reallocating scene render targets to support 1584x660 Format 9 NumSamples 1 (Frame:1).
+[2020.09.28-15.02.29:393][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.28-15.02.29:393][  0]LogLoad: (Engine Initialization) Total time: 8.70 seconds
+[2020.09.28-15.02.29:393][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.28-15.02.29:444][  0]LogAssetRegistry: Asset discovery search completed in 4.8548 seconds
+[2020.09.28-15.02.29:447][  0]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000009 seconds (updated 0 objects)
+[2020.09.28-15.02.29:447][  0]LogContentStreaming: Texture pool size now 600 MB
+[2020.09.28-15.02.29:502][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.28-15.02.30:433][ 93]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.28-15.02.36:316][613]LogSourceControl: Warning: 'C:/Users/Max/Documents/Unreal Projects/ALS3/' is not part of a Git repository
+[2020.09.28-15.04.33:384][534]LogSlate: Took 0.008156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.09.28-15.04.38:987][ 98]SourceControl: Error: warning: LF will be replaced by CRLF in .gitignore.
+[2020.09.28-15.04.38:987][ 98]SourceControl: Error: The file will have its original line endings in your working directory
+[2020.09.28-15.04.39:457][104]LogSourceControl: commit successful: [master (root-commit) 4e020db] Initial commit
+[2020.09.28-15.04.39:462][105]SourceControl: [master (root-commit) 4e020db] Initial commit
+[2020.09.28-15.04.39:462][105]SourceControl:  263 files changed, 296 insertions(+)
+[2020.09.28-15.04.39:462][105]SourceControl:  create mode 100644 .gitignore
+[2020.09.28-15.04.39:462][105]SourceControl:  create mode 100644 ALS3.uproject
+[2020.09.28-15.04.39:462][105]SourceControl:  create mode 100644 Config/DefaultEditor.ini
+[2020.09.28-15.04.39:462][105]SourceControl:  create mode 100644 Config/DefaultEngine.ini
+[2020.09.28-15.04.39:462][105]SourceControl:  create mode 100644 Config/DefaultGame.ini
+[2020.09.28-15.04.39:462][105]SourceControl:  create mode 100644 Config/DefaultInput.ini
+[2020.09.28-15.04.39:462][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/AC_ALS.uasset
+[2020.09.28-15.04.39:462][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/ALS_BaseCharacter.uasset
+[2020.09.28-15.04.39:462][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/ALS_Interface.uasset
+[2020.09.28-15.04.39:462][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/AnimNotifys/CameraShake_AnimNotify.uasset
+[2020.09.28-15.04.39:462][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/AnimNotifys/IdleEntry_AnimNotify.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/AnimNotifys/Pivot_AnimNotifyState.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/AnimNotifys/TurnInPlace_AnimNotifyState.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/CharacterC.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Curves/AnimBlendCurves/FlailAlphaCurve.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Curves/AnimBlendCurves/LandPredictionAlphaCurve.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Curves/CameraLerpCurves/CameraLerp_1.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Curves/CameraLerpCurves/CameraLerp_2.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Curves/CameraLerpCurves/CameraLerp_3.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Curves/TransitionCurves/IdleTransition.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Curves/TurnInPlaceCurves/C_Turn_L90.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Curves/TurnInPlaceCurves/C_Turn_R90.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Curves/TurnInPlaceCurves/Turn_L180.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Curves/TurnInPlaceCurves/Turn_L90.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Curves/TurnInPlaceCurves/Turn_R180.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Curves/TurnInPlaceCurves/Turn_R90.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Enums/ALS_Gait.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Enums/ALS_MovementMode.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Enums/ALS_RotationMode.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Enums/ALS_Stance.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Enums/ALS_ViewMode.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Enums/CardinalDirection.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Enums/FootstepType.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Enums/IdleEntryState.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Enums/LocomotionState.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Enums/MovementDirection.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Enums/WeaponType.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/MannequinCharacter.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Misc/Sprint_CameraShake.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Structs/ALS_CameraSettings.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Structs/ALS_CameraSettings_Gait.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Structs/ALS_CameraSettings_Stance.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Structs/ALS_Camera_Targets.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Structs/ALS_PivotParams.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Blueprints/Structs/TurnAnims.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/ALS_AnimBP.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/ALS_Mannequin_Skeleton.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Idle_Additive_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_InAIr_Lean_B_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_InAIr_Lean_F_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_InAIr_Lean_L_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_InAIr_Lean_R_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_InAir_Additive_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Lean_B_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Lean_F_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Lean_Grounded.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Lean_InAir.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Lean_L_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Lean_R_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_F.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_FD.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_FU.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_L180.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_L90.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_LD180.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_LD90.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_LU180.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_LU90.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_R180.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_R90.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_RD180.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_RD90.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_RU180.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_RU90.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/GettingUp/ALS_CLF_GetUpFromBack.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/GettingUp/ALS_CLF_GetUpFromBack_Montage.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/GettingUp/ALS_CLF_GetUpFromFront.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/GettingUp/ALS_CLF_GetUpFromFront_Montage.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/ALS_CLF_Idle_Additive.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/ALS_CLF_Idle_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/ALS_CRF_Idle_Additive.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/ALS_CRF_Idle_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/ALS_LF_Idle_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/ALS_N_Idle_Additive.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/ALS_N_Idle_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/ALS_RF_Idle_Pose.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_CLF_to_CRF_Idle.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_CRF_to_CLF_Idle.uasset
+[2020.09.28-15.04.39:463][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_LF_to_CLF_Idle.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_LF_to_RF_Idle.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_N_to_CLF_Idle.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_N_to_CRF_Idle.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_N_to_LF_Idle.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_N_to_RF_Idle.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_RF_to_CRF_Idle.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/InAir/ALS_Curl.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/InAir/ALS_Flail.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/InAir/ALS_N_AdditiveLandCompression.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/InAir/ALS_N_FallLoop.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/InAir/ALS_N_Jump.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/InAir/ALS_N_Land.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CLF_Locomotion.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CLF_Walk_B.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CLF_Walk_F.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CLF_Walk_L.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CLF_Walk_R.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CRF_Locomotion.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CRF_Walk_B.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CRF_Walk_F.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CRF_Walk_L.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CRF_Walk_R.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_LF_Locomotion.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_LF_Walk_B.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_LF_Walk_F.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_LF_Walk_L.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_LF_Walk_R.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Locomotion_B.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Locomotion_B_Upper.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Locomotion_F.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Locomotion_F_90.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Locomotion_F_Upper.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Run_B.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Run_BL.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Run_BR.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Run_F.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Run_FL.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Run_FR.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Sprint_F.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_B.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_BL.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_BL_135.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_BR.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_BR_135.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_F.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_FL.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_FL_45.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_FR.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_FR_45.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_RF_Locomotion.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_RF_Walk_B.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_RF_Walk_F.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_RF_Walk_L.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Locomotion/ALS_RF_Walk_R.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Misc/ALS_Mannequin_RetargetPoses.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Misc/ALS_Mannequin_T_Pose.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Pivots/ALS_LF_Pivot_B.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Pivots/ALS_LF_Pivot_F.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Pivots/ALS_LF_Pivot_L.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Pivots/ALS_LF_Pivot_R.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Pivots/ALS_RF_Pivot_B.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Pivots/ALS_RF_Pivot_F.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Pivots/ALS_RF_Pivot_L.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Pivots/ALS_RF_Pivot_R.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_CLF_Stop.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_CRF_Stop.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_LF_Stop.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_LF_Stop_0_LF.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_LF_Stop_0_RF.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_LF_Stop_90_LF.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_LF_Stop_90_RF.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_-90_LF.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_-90_LF0.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_-90_RF.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_-90_RF0.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_0_LF.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_0_RF.uasset
+[2020.09.28-15.04.39:464][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_90_LF.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_90_LF0.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_90_RF.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_90_RF0.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_LF.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_RF.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_RF_Stop.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_RF_Stop_0_LF.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_RF_Stop_0_RF.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_RF_Stop_90_LF.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/Stopping/ALS_RF_Stop_90_RF.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CLF_Turn_L90.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CLF_Turn_L90_Montage.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CLF_Turn_R90.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CLF_Turn_R90_Montage.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CRF_Turn_L90.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CRF_Turn_L90_Montage.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CRF_Turn_R90.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CRF_Turn_R90_Montage.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_LF_Turn_L90.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_LF_Turn_L90_Montage.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_LF_Turn_R90.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_LF_Turn_R90_Montage.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_L180.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_L180_Montage.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_L90.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_L90_Montage.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_R180.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_R180_Montage.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_R90.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_R90_Montage.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_RF_Turn_L90.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_RF_Turn_L90_Montage.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_RF_Turn_R90.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_RF_Turn_R90_Montage.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Mannequin.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Mannequin_AnimBP.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Mannequin_PhysicsAsset.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_Body.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_Body_Beige.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_Body_Blue.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_Body_Green.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_Body_Grey.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_Body_Orange.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_Body_Pink.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_Body_Red.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_Body_Yellow.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_ChestLogo.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_ChestLogo_Beige.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_ChestLogo_Blue.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_ChestLogo_Green.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_ChestLogo_Grey.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_ChestLogo_Orange.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_ChestLogo_Pink.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_ChestLogo_Red.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/M_UE4Man_ChestLogo_Yellow.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/Textures/UE4Man_Logo_N.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/Textures/UE4_LOGO_CARD.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Characters/Mannequin/Materials/Textures/UE4_Mannequin__normals.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Maps/ALSV3_DemoLevel_SP.umap
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Maps/ALSV3_DemoLevel_SP_BuiltData.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Maps/ALS_GameMode_MP.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Maps/ALS_GameMode_SP.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Maps/ALS_LevelColorManager.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Maps/Materials/CollectionParameters/M_Floor_Params.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Maps/Materials/CollectionParameters/M_Landscape_Params.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Maps/Materials/CollectionParameters/M_Platform_Params.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Maps/Materials/CollectionParameters/M_Stairs_Params.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Maps/Materials/CollectionParameters/M_Walls_Params.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Maps/Materials/M_Floor.uasset
+[2020.09.28-15.04.39:465][105]SourceControl:  create mode 100644 Content/ALS/Maps/Materials/M_Landscape.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Maps/Materials/M_Platforms.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Maps/Materials/M_Stairs.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Maps/Materials/M_Walls.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Maps/Materials/Textures/T_Tiles_M.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Maps/Materials/Textures/T_Tiles_N.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Maps/Meshes/BotStand.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Maps/Meshes/Box.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Maps/Meshes/Floor.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Maps/Meshes/InfoWall.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Maps/Meshes/Platform.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Maps/Meshes/Stairs.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Maps/Meshes/TitleBoard.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Maps/Meshes/Walls.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Misc/M_OutlinedText.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 Content/ALS/Misc/RobotoDistanceField_Outlines.uasset
+[2020.09.28-15.04.39:466][105]SourceControl:  create mode 100644 README.md
+[2020.09.28-15.04.44:036][602]LogSlate: Window 'Source Control Login' being destroyed
+[2020.09.28-15.04.56:557][969]LogSlate: Window 'Source Control Login' being destroyed
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Marketplace/PTMTool/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Marketplace/PTMTool/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:574][455]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.01:692][455]EditorErrors: Warning: No assets to check in!
+[2020.09.28-15.05.06:566][985]LogSlate: Window 'Message Log' being destroyed
+[2020.09.28-15.05.06:571][985]LogSlate: Window 'Message Log' being destroyed
+[2020.09.28-15.05.39:407][382]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Content/EngineMeshes/Humanoid.uasset: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Content/EngineMeshes/Humanoid.uasset' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.39:407][382]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uasset: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uasset' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.39:407][382]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Content/EditorBlueprintResources/StandardMacros.uasset: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Content/EditorBlueprintResources/StandardMacros.uasset' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.39:407][382]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Content/Functions/MaterialLayerFunctions: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Content/Functions/MaterialLayerFunctions' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.39:407][382]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Content/EngineMaterials: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Content/EngineMaterials' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.39:407][382]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Content/EngineSky: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Content/EngineSky' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.39:407][382]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Content/BasicShapes: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Content/BasicShapes' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.39:407][382]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.39:407][382]SourceControl: fatal: E:/Game Dev/Epic Games/UE_4.25/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset: 'E:/Game Dev/Epic Games/UE_4.25/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset' is outside repository at 'C:/Users/Max/Documents/Unreal Projects/ALS3'
+[2020.09.28-15.05.52:550][382]SourceControl: Error: Logon failed, use ctrl+c to cancel basic credential prompt.
+[2020.09.28-15.05.52:550][382]SourceControl: Error: bash: /dev/tty: No such device or address
+[2020.09.28-15.05.52:550][382]SourceControl: Error: error: failed to execute prompt script (exit code 1)
+[2020.09.28-15.05.52:550][382]SourceControl: Error: fatal: could not read Username for 'https://github.com': No such file or directory
+[2020.09.28-15.05.52:561][382]LogContentBrowser: Syncing 1 path(s):
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Maps/ALS_LevelColorManager
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Maps/Materials/CollectionParameters/M_Walls_Params
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Maps/Materials/CollectionParameters/M_Stairs_Params
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Maps/Materials/CollectionParameters/M_Platform_Params
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Maps/Materials/CollectionParameters/M_Landscape_Params
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Maps/Materials/CollectionParameters/M_Floor_Params
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/ALS_Mannequin_Skeleton
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/ALS_N_Idle_Pose
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_F
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_FD
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_FU
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_L180
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_L90
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_LD180
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_LD90
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_LU180
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_LU90
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_R180
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_R90
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_RD180
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_RD90
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_RU180
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_RU90
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Enums/ALS_Gait
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Enums/ALS_MovementMode
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Enums/ALS_RotationMode
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Enums/ALS_Stance
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Enums/ALS_ViewMode
+[2020.09.28-15.05.52:561][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Enums/IdleEntryState
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Enums/MovementDirection
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Structs/ALS_PivotParams
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/ALS_Interface
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/AnimNotifys/IdleEntry_AnimNotify
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/GettingUp/ALS_CLF_GetUpFromBack
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/GettingUp/ALS_CLF_GetUpFromBack_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/GettingUp/ALS_CLF_GetUpFromFront
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/GettingUp/ALS_CLF_GetUpFromFront_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CLF_Turn_L90_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Curves/CameraLerpCurves/CameraLerp_1
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Curves/CameraLerpCurves/CameraLerp_2
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Curves/CameraLerpCurves/CameraLerp_3
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Enums/CardinalDirection
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Structs/ALS_CameraSettings
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Structs/ALS_CameraSettings_Gait
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Structs/ALS_CameraSettings_Stance
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Structs/ALS_Camera_Targets
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/ALS_BaseCharacter
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/AC_ALS
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/AnimNotifys/TurnInPlace_AnimNotifyState
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Curves/TurnInPlaceCurves/C_Turn_L90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CLF_Turn_L90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CLF_Turn_R90_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Curves/TurnInPlaceCurves/C_Turn_R90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CLF_Turn_R90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CRF_Turn_L90_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CRF_Turn_L90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CRF_Turn_R90_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_CRF_Turn_R90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_LF_Turn_L90_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Curves/TurnInPlaceCurves/Turn_L90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_LF_Turn_L90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_LF_Turn_R90_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Curves/TurnInPlaceCurves/Turn_R90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_LF_Turn_R90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_L180_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Curves/TurnInPlaceCurves/Turn_L180
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_L180
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_L90_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_L90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_R180_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Curves/TurnInPlaceCurves/Turn_R180
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_R180
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_R90_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_N_Turn_R90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_RF_Turn_L90_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_RF_Turn_L90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_RF_Turn_R90_Montage
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/TurnInPlace/ALS_RF_Turn_R90
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/ALS_CLF_Idle_Pose
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/ALS_CLF_Idle_Additive
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/ALS_CRF_Idle_Pose
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/ALS_CRF_Idle_Additive
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/ALS_LF_Idle_Pose
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/ALS_N_Idle_Additive
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/ALS_RF_Idle_Pose
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_CLF_to_CRF_Idle
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_CRF_to_CLF_Idle
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_LF_to_CLF_Idle
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_LF_to_RF_Idle
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_N_to_CLF_Idle
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_N_to_CRF_Idle
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_N_to_LF_Idle
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_N_to_RF_Idle
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Idles/Transitions/ALS_RF_to_CRF_Idle
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/InAir/ALS_Curl
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/InAir/ALS_Flail
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/InAir/ALS_N_AdditiveLandCompression
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/InAir/ALS_N_FallLoop
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/InAir/ALS_N_Jump
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/InAir/ALS_N_Land
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/AnimNotifys/Pivot_AnimNotifyState
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Pivots/ALS_LF_Pivot_B
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Pivots/ALS_LF_Pivot_F
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Pivots/ALS_LF_Pivot_L
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Pivots/ALS_LF_Pivot_R
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Pivots/ALS_RF_Pivot_B
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Pivots/ALS_RF_Pivot_F
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Pivots/ALS_RF_Pivot_L
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Pivots/ALS_RF_Pivot_R
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_CLF_Stop
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_CRF_Stop
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Idle_Additive_Pose
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Lean_B_Pose
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Lean_F_Pose
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Lean_L_Pose
+[2020.09.28-15.05.52:562][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Lean_R_Pose
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Lean_Grounded
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_InAir_Additive_Pose
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_InAIr_Lean_B_Pose
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_InAIr_Lean_F_Pose
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_InAIr_Lean_L_Pose
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_InAIr_Lean_R_Pose
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/AdditivePoses/ALS_N_Lean_InAir
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_LF_Walk_B
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_LF_Walk_F
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_LF_Walk_L
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_LF_Walk_R
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Run_B
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Run_BL
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Run_F
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Run_FL
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Run_FR
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/AnimNotifys/CameraShake_AnimNotify
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Misc/Sprint_CameraShake
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Sprint_F
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_LF_Locomotion
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Run_BR
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_B
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_BL
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_BL_135
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_BR
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_BR_135
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_F
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Locomotion_B
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Locomotion_B_Upper
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_FL
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_FL_45
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_FR
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Walk_FR_45
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Locomotion_F
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Locomotion_F_90
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_N_Locomotion_F_Upper
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_RF_Walk_B
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_RF_Walk_F
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_RF_Walk_L
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_RF_Walk_R
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_RF_Locomotion
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_LF_Stop_0_LF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_LF_Stop_0_RF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_LF_Stop_90_LF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_LF_Stop_90_RF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_LF_Stop
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_-90_LF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_-90_LF0
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_0_LF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_90_LF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_90_LF0
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_LF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_-90_RF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_-90_RF0
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_0_RF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_90_RF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_90_RF0
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_N_Stop_RF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_RF_Stop_0_LF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_RF_Stop_0_RF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_RF_Stop_90_LF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_RF_Stop_90_RF
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Stopping/ALS_RF_Stop
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CLF_Walk_B
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CLF_Walk_F
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CLF_Walk_L
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CLF_Walk_R
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CLF_Locomotion
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CRF_Walk_B
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CRF_Walk_F
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CRF_Walk_L
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CRF_Walk_R
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Animations/Locomotion/ALS_CRF_Locomotion
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Curves/AnimBlendCurves/FlailAlphaCurve
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Curves/AnimBlendCurves/LandPredictionAlphaCurve
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Curves/TransitionCurves/IdleTransition
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Enums/LocomotionState
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/Structs/TurnAnims
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/ALS_AnimBP
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/Textures/UE4_LOGO_CARD
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO
+[2020.09.28-15.05.52:563][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/MaterialLayers/T_ML_Aluminum01
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/Textures/UE4_Mannequin__normals
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/Textures/UE4_Mannequin_MAT_MASKA
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/M_UE4Man_Body
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/Textures/UE4Man_Logo_N
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Materials/M_UE4Man_ChestLogo
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Characters/Mannequin/Mannequin
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Blueprints/CharacterC
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/ALS_GameMode_SP
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Misc/RobotoDistanceField_Outlines
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/ALSV3_DemoLevel_SP_BuiltData
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Materials/Textures/T_Tiles_M
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Materials/Textures/T_Tiles_N
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Materials/M_Landscape
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Misc/M_OutlinedText
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Materials/M_Platforms
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Meshes/BotStand
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Meshes/Box
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Materials/M_Floor
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Meshes/Floor
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Meshes/InfoWall
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Meshes/Platform
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Materials/M_Stairs
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Meshes/Stairs
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Meshes/TitleBoard
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Materials/M_Walls
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/Meshes/Walls
+[2020.09.28-15.05.52:564][382]LogContentBrowser: 	 - /Game/ALS/Maps/ALSV3_DemoLevel_SP
+[2020.09.28-15.05.52:566][382]LightingResults: New page: Lighting Build
+[2020.09.28-15.05.52:568][382]LogWorld: UWorld::CleanupWorld for ALSV3_DemoLevel_SP, bSessionEnded=true, bCleanupResources=true
+[2020.09.28-15.05.52:568][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.28-15.05.52:568][382]MapCheck: New page: Map Check
+[2020.09.28-15.05.52:568][382]LightingResults: New page: Lighting Build
+[2020.09.28-15.05.52:581][382]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A61547FE00), frame # 12382
+[2020.09.28-15.05.52:581][382]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A6000B4F40), frame # 12382
+[2020.09.28-15.05.52:581][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.09.28-15.05.52:586][382]LogAIModule: Creating AISystem for world Untitled
+[2020.09.28-15.05.52:586][382]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A6870D0400), frame # 12382
+[2020.09.28-15.05.52:586][382]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A60E3E65C0), frame # 12382
+[2020.09.28-15.05.52:636][382]LoadErrors: New page: New Map
+[2020.09.28-15.05.52:639][382]LogUObjectGlobals: Reloading 230 Package(s):
+	Asset Name: /Game/ALS/Maps/Materials/CollectionParameters/M_Floor_Params
+	Asset Name: /Game/ALS/Maps/Materials/CollectionParameters/M_Landscape_Params
+	Asset Name: /Game/ALS/Maps/Materials/CollectionParameters/M_Platform_Params
+	Asset Name: /Game/ALS/Maps/Materials/CollectionParameters/M_Stairs_Params
+	Asset Name: /Game/ALS/Maps/Materials/CollectionParameters/M_Walls_Params
+	Asset Name: /Game/ALS/Maps/ALS_LevelColorManager
+	Asset Name: /Game/ALS/Characters/Mannequin/ALS_Mannequin_Skeleton
+	Asset Name: /Game/ALS/Characters/Mannequin/Animations/Idles/ALS_N_Idle_Pose
+	Asset Name: /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_F
+	Asset Name: /Game/ALS/Characters/Mannequin/Animations/AimOffsets/ALS_N_AO_FD
+[2020.09.28-15.05.52:668][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.09.28-15.05.52:787][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.09.28-15.05.52:897][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.09.28-15.05.53:013][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.09.28-15.05.53:631][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.09.28-15.05.53:739][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.09.28-15.05.53:866][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.09.28-15.05.53:976][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.09.28-15.05.54:100][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.09.28-15.05.54:205][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.09.28-15.05.54:317][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.09.28-15.05.54:423][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.09.28-15.05.54:796][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.09.28-15.05.55:586][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.09.28-15.05.56:400][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.09.28-15.05.57:201][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.09.28-15.05.57:997][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.09.28-15.05.58:814][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.09.28-15.05.58:921][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.09.28-15.05.59:053][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.09.28-15.05.59:358][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.09.28-15.05.59:798][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.09.28-15.06.00:113][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.09.28-15.06.00:436][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.09.28-15.06.00:763][382]LogUObjectGlobals: Warning: ReloadPackage failed to find a replacement object for 'ALS_BaseCharacter_C:InputAxisDelegateBinding_9' in the new package '/Game/ALS/Blueprints/ALS_BaseCharacter'. Any existing references to this object will be nulled out.
+[2020.09.28-15.06.00:763][382]LogUObjectGlobals: Warning: ReloadPackage failed to find a replacement object for 'ALS_BaseCharacter_C:InputKeyDelegateBinding_9' in the new package '/Game/ALS/Blueprints/ALS_BaseCharacter'. Any existing references to this object will be nulled out.
+[2020.09.28-15.06.00:763][382]LogUObjectGlobals: Warning: ReloadPackage failed to find a replacement object for 'ALS_BaseCharacter_C:InputActionDelegateBinding_9' in the new package '/Game/ALS/Blueprints/ALS_BaseCharacter'. Any existing references to this object will be nulled out.
+[2020.09.28-15.06.00:958][382]LogProperty: Warning: Serialized BlueprintGeneratedClass /Game/ALS/Blueprints/AC_ALS.AC_ALS_C for a property of BlueprintGeneratedClass /Game/ALS/Blueprints/AC_ALS_DEADPACKAGE_49.AC_ALS_C. Reference will be nullptred.
+    Property = ObjectProperty /Game/ALS/Blueprints/CharacterC.CharacterC_C:AC_ALS
+    Item = AC_ALS_C /Engine/Transient.World_4:PersistentLevel.CharacterC_C_0.AC_ALS
+[2020.09.28-15.06.00:958][382]LogScript: Warning: Accessed None trying to read property AC_ALS
+	CharacterC_C /Engine/Transient.World_4:PersistentLevel.CharacterC_C_0
+	Function /Game/ALS/Blueprints/CharacterC.CharacterC_C:UserConstructionScript:0053
+[2020.09.28-15.06.00:958][382]LogScript: Warning: Accessed None attempting to assign variable on an object
+	CharacterC_C /Engine/Transient.World_4:PersistentLevel.CharacterC_C_0
+	Function /Game/ALS/Blueprints/CharacterC.CharacterC_C:UserConstructionScript:0068
+[2020.09.28-15.06.01:680][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.09.28-15.06.01:815][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.09.28-15.06.01:931][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.09.28-15.06.02:057][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.09.28-15.06.02:171][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.09.28-15.06.02:285][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.09.28-15.06.02:395][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.09.28-15.06.02:505][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.09.28-15.06.02:613][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.09.28-15.06.02:726][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.09.28-15.06.02:841][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.09.28-15.06.02:950][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.09.28-15.06.03:059][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.09.28-15.06.03:173][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.09.28-15.06.03:283][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.09.28-15.06.03:393][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.09.28-15.06.03:774][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.09.28-15.06.04:176][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.09.28-15.06.04:567][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.09.28-15.06.04:956][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.09.28-15.06.05:360][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.09.28-15.06.05:749][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.09.28-15.06.06:137][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.09.28-15.06.06:573][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.09.28-15.06.06:954][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.09.28-15.06.07:354][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.09.28-15.06.07:741][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.09.28-15.06.08:131][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.09.28-15.06.08:519][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.09.28-15.06.08:934][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.09.28-15.06.09:318][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.09.28-15.06.09:711][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.09.28-15.06.10:106][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.09.28-15.06.10:223][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.09.28-15.06.10:343][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.09.28-15.06.10:759][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.09.28-15.06.10:873][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.09.28-15.06.10:984][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.09.28-15.06.11:414][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.09.28-15.06.11:532][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.09.28-15.06.11:645][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.09.28-15.06.11:755][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.09.28-15.06.11:870][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.09.28-15.06.12:017][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.09.28-15.06.12:126][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.09.28-15.06.12:502][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.09.28-15.06.12:616][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.09.28-15.06.12:745][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.09.28-15.06.12:860][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.09.28-15.06.13:263][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.09.28-15.06.13:376][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.09.28-15.06.13:498][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.09.28-15.06.13:899][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.09.28-15.06.14:297][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.09.28-15.06.14:413][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.09.28-15.06.14:803][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.09.28-15.06.14:913][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.09.28-15.06.15:026][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.09.28-15.06.15:454][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.09.28-15.06.15:563][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.09.28-15.06.15:678][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.09.28-15.06.16:072][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.09.28-15.06.16:184][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.09.28-15.06.16:294][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.09.28-15.06.16:684][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.09.28-15.06.16:795][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.09.28-15.06.17:185][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.09.28-15.06.17:297][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.09.28-15.06.17:410][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.09.28-15.06.17:818][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.09.28-15.06.17:928][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.09.28-15.06.18:317][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.09.28-15.06.18:432][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.09.28-15.06.18:831][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.09.28-15.06.19:815][382]LogAnimation: Warning: Unable to dynamically link root ALS.
+[2020.09.28-15.06.19:815][382]LogAnimation: Warning: Unable to dynamically link root Overlay.
+[2020.09.28-15.06.19:815][382]LogAnimation: Warning: Unable to dynamically link input pose InPose.
+[2020.09.28-15.06.19:815][382]LogAnimation: Warning: Unable to dynamically link root Foot IK.
+[2020.09.28-15.06.19:841][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.09.28-15.06.19:950][382]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.09.28-15.06.20:025][382]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.09.28-15.06.20:055][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 98
+[2020.09.28-15.06.20:055][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 88
+[2020.09.28-15.06.20:055][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 78
+[2020.09.28-15.06.20:055][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 68
+[2020.09.28-15.06.20:069][382]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.09.28-15.06.20:104][382]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.09.28-15.06.20:155][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.09.28-15.06.20:322][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.09.28-15.06.20:533][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.09.28-15.06.20:727][382]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.09.28-15.06.20:779][382]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.09.28-15.06.20:832][382]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.09.28-15.06.20:886][382]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2020.09.28-15.06.20:951][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.09.28-15.06.21:166][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.09.28-15.06.21:408][382]LogAnimation: Warning: Unable to dynamically link root ALS.
+[2020.09.28-15.06.21:408][382]LogAnimation: Warning: Unable to dynamically link root Overlay.
+[2020.09.28-15.06.21:408][382]LogAnimation: Warning: Unable to dynamically link input pose InPose.
+[2020.09.28-15.06.21:408][382]LogAnimation: Warning: Unable to dynamically link root Foot IK.
+[2020.09.28-15.06.21:428][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.09.28-15.06.21:690][382]LogAnimation: Warning: Unable to dynamically link root ALS.
+[2020.09.28-15.06.21:691][382]LogAnimation: Warning: Unable to dynamically link root Overlay.
+[2020.09.28-15.06.21:691][382]LogAnimation: Warning: Unable to dynamically link input pose InPose.
+[2020.09.28-15.06.21:691][382]LogAnimation: Warning: Unable to dynamically link root Foot IK.
+[2020.09.28-15.06.21:706][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.09.28-15.06.21:907][382]LogUObjectGlobals: Warning: ReloadPackage failed to find a replacement object for 'CharacterC_C:InputKeyDelegateBinding_7' in the new package '/Game/ALS/Blueprints/CharacterC'. Any existing references to this object will be nulled out.
+[2020.09.28-15.06.21:907][382]LogUObjectGlobals: Warning: ReloadPackage failed to find a replacement object for 'CharacterC_C:InputAxisDelegateBinding_7' in the new package '/Game/ALS/Blueprints/CharacterC'. Any existing references to this object will be nulled out.
+[2020.09.28-15.06.21:907][382]LogUObjectGlobals: Warning: ReloadPackage failed to find a replacement object for 'CharacterC_C:InputActionDelegateBinding_7' in the new package '/Game/ALS/Blueprints/CharacterC'. Any existing references to this object will be nulled out.
+[2020.09.28-15.06.21:912][382]LogAnimation: Warning: Unable to dynamically link root ALS.
+[2020.09.28-15.06.21:912][382]LogAnimation: Warning: Unable to dynamically link root Overlay.
+[2020.09.28-15.06.21:912][382]LogAnimation: Warning: Unable to dynamically link input pose InPose.
+[2020.09.28-15.06.21:912][382]LogAnimation: Warning: Unable to dynamically link root Foot IK.
+[2020.09.28-15.06.21:914][382]LogAnimation: Warning: Unable to dynamically link root ALS.
+[2020.09.28-15.06.21:914][382]LogAnimation: Warning: Unable to dynamically link root Overlay.
+[2020.09.28-15.06.21:914][382]LogAnimation: Warning: Unable to dynamically link input pose InPose.
+[2020.09.28-15.06.21:914][382]LogAnimation: Warning: Unable to dynamically link root Foot IK.
+[2020.09.28-15.06.22:146][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.09.28-15.06.22:348][382]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.09.28-15.06.22:348][382]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.09.28-15.06.26:302][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 392
+[2020.09.28-15.06.26:303][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 382
+[2020.09.28-15.06.26:303][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 372
+[2020.09.28-15.06.26:303][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 362
+[2020.09.28-15.06.26:303][382]LogWindows: Error: === Critical error: ===
+[2020.09.28-15.06.26:303][382]LogWindows: Error: 
+[2020.09.28-15.06.26:303][382]LogWindows: Error: Fatal error: [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/RenderCore/Private/RenderResource.cpp] [Line: 149] 
+[2020.09.28-15.06.26:303][382]LogWindows: Error: A FRenderResource was deleted without being released first!
+[2020.09.28-15.06.26:303][382]LogWindows: Error: 
+[2020.09.28-15.06.26:303][382]LogWindows: Error: 
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffdaed53e49 KERNELBASE.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2f77e9e6 UE4Editor-Core.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2f781dc8 UE4Editor-Core.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2f50e53d UE4Editor-Core.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2b90f306 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2ce10e8e UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2ce07a22 UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2ce05629 UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2ce1102b UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2b90d764 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2b946a93 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2c88feaf UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2c89025c UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2a21b13c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2a20d974 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2ee4ef53 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2a232f67 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2a231d25 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd214035cb UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd214b1375 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2b4fab85 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2b501320 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2b4da937 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2b57207e UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2b58b27e UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2b502a95 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2b3d2dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.28-15.06.26:303][382]LogWindows: Error: [Callstack] 0x00007ffd2b4569cf UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ffd2b43f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ffd2b432392 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ffd6a927f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ffd6a915c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ffd6a92a609 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ffd6a9117d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ffdb0f3e858 USER32.dll!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ffdb0f3e299 USER32.dll!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ffd6a92bb24 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ff6bd8868c4 UE4Editor.exe!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ff6bd89ba7c UE4Editor.exe!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ff6bd89bb5a UE4Editor.exe!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ff6bd8ae31d UE4Editor.exe!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ff6bd8b145a UE4Editor.exe!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ffdaf4b6fd4 KERNEL32.DLL!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: [Callstack] 0x00007ffdb125cec1 ntdll.dll!UnknownFunction []
+[2020.09.28-15.06.26:304][382]LogWindows: Error: 
+[2020.09.28-15.06.26:319][382]LogExit: Executing StaticShutdownAfterError
+[2020.09.28-15.06.26:321][382]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.09.28-15.06.26:321][382]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.09.28-15.06.26:329][382]Log file closed, 09/28/20 16:06:26
