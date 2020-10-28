@@ -1,3 +1,4 @@
+[![discord](https://img.shields.io/discord/735642528727957516?style=flat-square&logo=discord "Discord")](https://discord.gg/cJDV4F5)
 # ALSv3 Component (Replicated)
 
 The original ALSv3 turned into a easily usable component which can be used in Characters
